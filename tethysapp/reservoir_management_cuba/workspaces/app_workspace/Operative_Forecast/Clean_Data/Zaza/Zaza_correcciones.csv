@@ -1,0 +1,106 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-05-10,nivel,35.76,33.76,curva nivel-volumen,un solo digito de diferencia: 33.76 en vez de 35.76
+2013-05-24,vertimiento,2.2464,0.0,vertimiento bajo la cresta,"vierte 2.246 m3/s con el nivel en 33.24 m, por debajo de la cresta (umbral 35.32 m)"
+2013-06-12,nivel,33.09,33.09,correccion manual,el volumen 481.525 es 33.09 en la curva (igual que el 13/06); 33.04 no encaja entre 33.11 y 33.09
+2013-07-09,nivel,34.1,34.18,curva nivel-volumen,un solo digito de diferencia: 34.18 en vez de 34.10
+2013-08-25,nivel,34.42,35.42,curva nivel-volumen,un solo digito de diferencia: 35.42 en vez de 34.42
+2013-09-06,nivel,35.21,36.21,curva nivel-volumen,un solo digito de diferencia: 36.21 en vez de 35.21
+2014-06-05,nivel,33.81,33.61,curva nivel-volumen,un solo digito de diferencia: 33.61 en vez de 33.81
+2014-10-31,nivel,34.68,34.78,curva nivel-volumen,un solo digito de diferencia: 34.78 en vez de 34.68
+2014-11-14,nivel,31.76,34.76,curva nivel-volumen,un solo digito de diferencia: 34.76 en vez de 31.76
+2014-12-13,nivel,31.54,34.54,curva nivel-volumen,un solo digito de diferencia: 34.54 en vez de 31.54
+2015-01-17,vertimiento,0.9331,0.0,vertimiento bajo la cresta,"vierte 0.933 m3/s con el nivel en 33.71 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-18,vertimiento,0.9331,0.0,vertimiento bajo la cresta,"vierte 0.933 m3/s con el nivel en 33.68 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-19,vertimiento,0.9331,0.0,vertimiento bajo la cresta,"vierte 0.933 m3/s con el nivel en 33.65 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-20,vertimiento,0.9331,0.0,vertimiento bajo la cresta,"vierte 0.933 m3/s con el nivel en 33.63 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-21,vertimiento,0.9331,0.0,vertimiento bajo la cresta,"vierte 0.933 m3/s con el nivel en 33.60 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-22,vertimiento,0.9331,0.0,vertimiento bajo la cresta,"vierte 0.933 m3/s con el nivel en 33.57 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-23,vertimiento,2.16,0.0,vertimiento bajo la cresta,"vierte 2.160 m3/s con el nivel en 33.54 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-24,vertimiento,2.16,0.0,vertimiento bajo la cresta,"vierte 2.160 m3/s con el nivel en 33.50 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-01-25,vertimiento,2.16,0.0,vertimiento bajo la cresta,"vierte 2.160 m3/s con el nivel en 33.47 m, por debajo de la cresta (umbral 35.32 m); es la entrega del dia copiada"
+2015-10-14,volumen,195.0,191.0,curva nivel-volumen,un solo digito de diferencia: 191.000 en vez de 195.000
+2015-12-05,nivel,31.62,31.32,curva nivel-volumen,un solo digito de diferencia: 31.32 en vez de 31.62
+2015-12-07,nivel,30.59,31.59,curva nivel-volumen,un solo digito de diferencia: 31.59 en vez de 30.59
+2016-07-16,nivel,31.73,31.23,curva nivel-volumen,un solo digito de diferencia: 31.23 en vez de 31.73
+2016-11-17,nivel,31.3,31.39,curva nivel-volumen,un solo digito de diferencia: 31.39 en vez de 31.30
+2017-01-10,nivel,24.5,29.5,curva nivel-volumen,un solo digito de diferencia: 29.50 en vez de 24.50
+2017-06-27,nivel,27.77,24.77,curva nivel-volumen,un solo digito de diferencia: 24.77 en vez de 27.77
+2017-07-18,entrega,112.32,0.1123,potencia de diez,72 veces la entrega habitual (p75 1.555); /1000 queda en 0.112 (entrega garantizada diaria de la ficha: 1.740)
+2017-07-19,nivel,24.42,26.42,curva nivel-volumen,un solo digito de diferencia: 26.42 en vez de 24.42
+2017-10-06,nivel,37.83,37.73,curva nivel-volumen,un solo digito de diferencia: 37.73 en vez de 37.83
+2017-11-13,nivel,37.18,37.98,curva nivel-volumen,un solo digito de diferencia: 37.98 en vez de 37.18
+2018-05-28,volumen,944.0,944.0,correccion manual,"un digito: 934 en vez de 944; sobre la cresta el embalse gana ~100 hm3/m (938 a 38.18 m, 949 a 38.29 m), asi que 38.24 m son ~944"
+2018-06-01,vertimiento,0.0,0.0,correccion manual,el vertimiento 942.342 m3/s es la misma salida que el desembalse del dia (942.342 x 0.0864 = 81.4 hm3 ~ desembalse 81): estaba contada dos veces
+2018-06-02,vertimiento,0.0,0.0,correccion manual,942.342 es copia del 01/06 y repite la salida ya anotada en desembalse (55 hm3/dia); estaba contada dos veces
+2018-06-04,volumen,712.0,726.0,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2018-07-24,nivel,36.99,35.99,curva nivel-volumen,un solo digito de diferencia: 35.99 en vez de 36.99
+2018-07-25,nivel,36.96,35.96,curva nivel-volumen,un solo digito de diferencia: 35.96 en vez de 36.96
+2018-08-08,nivel,25.86,35.86,curva nivel-volumen,un solo digito de diferencia: 35.86 en vez de 25.86
+2018-08-14,nivel,25.79,35.79,curva nivel-volumen,un solo digito de diferencia: 35.79 en vez de 25.79
+2018-11-09,nivel,35.69,35.79,curva nivel-volumen,un solo digito de diferencia: 35.79 en vez de 35.69
+2019-01-25,nivel,34.84,33.84,curva nivel-volumen,un solo digito de diferencia: 33.84 en vez de 34.84
+2019-05-05,volumen,280.42,280.42,correccion manual,el volumen 270.06 no cae en la curva; el nivel 29.65 es el mismo de los dias 03 y 04 (280.42)
+2019-05-06,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-07,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-08,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-09,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-10,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-11,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-12,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-13,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-14,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-15,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-16,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-17,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-18,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-19,nivel,29.65,29.45,curva nivel-volumen,un solo digito de diferencia: 29.45 en vez de 29.65
+2019-05-20,entrega,6.2,0.62,potencia de diez,la quincena declara 5.3 veces lo que el embalse pierde (1.167 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-21,entrega,6.2,0.62,potencia de diez,la quincena declara 5.3 veces lo que el embalse pierde (1.167 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-22,entrega,6.2,0.62,potencia de diez,la quincena declara 4.4 veces lo que el embalse pierde (1.404 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-23,entrega,6.2,0.62,potencia de diez,la quincena declara 4.4 veces lo que el embalse pierde (1.404 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-24,entrega,6.2,0.62,potencia de diez,la quincena declara 4.4 veces lo que el embalse pierde (1.404 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-25,entrega,6.2,0.62,potencia de diez,la quincena declara 4.4 veces lo que el embalse pierde (1.404 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-26,entrega,6.2,0.62,potencia de diez,la quincena declara 4.4 veces lo que el embalse pierde (1.404 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-27,entrega,6.2,0.62,potencia de diez,la quincena declara 4.4 veces lo que el embalse pierde (1.404 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-05-28,entrega,6.2,0.62,potencia de diez,la quincena declara 5.3 veces lo que el embalse pierde (1.167 hm3/dia); /10 queda en 0.620 (entrega garantizada diaria de la ficha: 1.740)
+2019-06-05,vertimiento,400.366,0.0,vertimiento bajo la cresta,"vierte 400.366 m3/s con el nivel en 29.22 m, por debajo de la cresta (umbral 35.32 m)"
+2019-06-26,entrega,10.7,1.07,potencia de diez,la quincena declara 5.6 veces lo que el embalse pierde (1.800 hm3/dia); /10 queda en 1.070 (entrega garantizada diaria de la ficha: 1.740)
+2019-06-27,entrega,10.7,1.07,potencia de diez,la quincena declara 5.6 veces lo que el embalse pierde (1.800 hm3/dia); /10 queda en 1.070 (entrega garantizada diaria de la ficha: 1.740)
+2019-06-28,entrega,10.7,1.07,potencia de diez,la quincena declara 5.6 veces lo que el embalse pierde (1.800 hm3/dia); /10 queda en 1.070 (entrega garantizada diaria de la ficha: 1.740)
+2019-06-29,entrega,15.7,1.57,potencia de diez,la quincena declara 5.6 veces lo que el embalse pierde (1.800 hm3/dia); /10 queda en 1.570 (entrega garantizada diaria de la ficha: 1.740)
+2019-06-30,entrega,15.7,1.57,potencia de diez,la quincena declara 4.8 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.570 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-01,entrega,15.7,1.57,potencia de diez,la quincena declara 4.8 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.570 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-02,entrega,10.0,1.0,potencia de diez,la quincena declara 4.8 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.000 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-03,entrega,10.0,1.0,potencia de diez,la quincena declara 4.8 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.000 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-04,entrega,10.0,1.0,potencia de diez,la quincena declara 4.8 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.000 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-05,entrega,10.0,1.0,potencia de diez,la quincena declara 4.8 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.000 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-06,entrega,10.7,1.07,potencia de diez,la quincena declara 4.8 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.070 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-07,entrega,10.7,1.07,potencia de diez,la quincena declara 4.7 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.070 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-08,entrega,10.7,1.07,potencia de diez,la quincena declara 4.7 veces lo que el embalse pierde (2.250 hm3/dia); /10 queda en 1.070 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-09,entrega,10.7,1.07,potencia de diez,la quincena declara 5.0 veces lo que el embalse pierde (2.100 hm3/dia); /10 queda en 1.070 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-10,entrega,11.0,1.1,potencia de diez,la quincena declara 5.0 veces lo que el embalse pierde (2.100 hm3/dia); /10 queda en 1.100 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-11,entrega,8.2,0.82,potencia de diez,la quincena declara 5.0 veces lo que el embalse pierde (2.100 hm3/dia); /10 queda en 0.820 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-12,entrega,8.2,0.82,potencia de diez,la quincena declara 5.0 veces lo que el embalse pierde (2.100 hm3/dia); /10 queda en 0.820 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-13,entrega,10.5,1.05,potencia de diez,la quincena declara 5.8 veces lo que el embalse pierde (1.800 hm3/dia); /10 queda en 1.050 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-14,entrega,10.5,1.05,potencia de diez,la quincena declara 6.0 veces lo que el embalse pierde (1.750 hm3/dia); /10 queda en 1.050 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-15,entrega,10.5,1.05,potencia de diez,la quincena declara 7.5 veces lo que el embalse pierde (1.400 hm3/dia); /10 queda en 1.050 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-16,entrega,10.5,1.05,potencia de diez,la quincena declara 7.5 veces lo que el embalse pierde (1.400 hm3/dia); /10 queda en 1.050 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-17,entrega,10.5,1.05,potencia de diez,la quincena declara 5.9 veces lo que el embalse pierde (1.400 hm3/dia); /10 queda en 1.050 (entrega garantizada diaria de la ficha: 1.740)
+2019-07-18,entrega,10.5,1.05,potencia de diez,la quincena declara 5.9 veces lo que el embalse pierde (1.400 hm3/dia); /10 queda en 1.050 (entrega garantizada diaria de la ficha: 1.740)
+2019-08-09,nivel,26.13,26.93,curva nivel-volumen,un solo digito de diferencia: 26.93 en vez de 26.13
+2019-09-29,volumen,144.99,149.99,curva nivel-volumen,un solo digito de diferencia: 149.990 en vez de 144.990
+2019-09-30,volumen,144.19,154.63,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2019-10-29,nivel,27.79,29.79,curva nivel-volumen,un solo digito de diferencia: 29.79 en vez de 27.79
+2019-12-18,nivel,24.56,29.56,curva nivel-volumen,un solo digito de diferencia: 29.56 en vez de 24.56
+2020-12-27,nivel,37.5,37.3,curva nivel-volumen,un solo digito de diferencia: 37.30 en vez de 37.50
+2021-10-06,entrega,432.0,0.432,potencia de diez,278 veces la entrega habitual (p75 1.555); /1000 queda en 0.432 (entrega garantizada diaria de la ficha: 1.740)
+2022-06-20,volumen,420.1,428.1,curva nivel-volumen,un solo digito de diferencia: 428.100 en vez de 420.100
+2022-09-22,volumen,523.575,523.575,correccion manual,un digito: 525.575 en vez de 523.575; 33.67 m en la curva
+2022-09-28,hora,06:42:00,06:42:00,correccion manual,"se usa la lectura de 06:42, la mas cercana a las 08:00"
+2022-09-28,nivel,33.84,33.84,correccion manual,lectura de las 06:42 (la elegida traia 33.76)
+2022-09-28,volumen,535.9,535.9,correccion manual,lectura de las 06:42 (la elegida traia 530.100)
+2023-04-30,nivel,28.41,28.41,correccion manual,el volumen 223.45 es 28.41 en la curva y sigue la bajada (226.15 el 29/04); 28.10 no encaja con 28.47 ni con 28.62
+2023-05-20,nivel,28.35,28.25,curva nivel-volumen,un solo digito de diferencia: 28.25 en vez de 28.35
+2023-12-17,nivel,30.09,30.09,correccion manual,lectura de las 05:48 (la elegida traia 30.07)
+2023-12-17,hora,05:48:00,05:48:00,correccion manual,"se usa la lectura de 05:48, la mas cercana a las 08:00"
+2023-12-17,volumen,301.588,301.588,correccion manual,lectura de las 05:48 (la elegida traia 300.524)

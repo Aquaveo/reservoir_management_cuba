@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=45"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tethysapp-reservoir_management_cuba"
+version = "0.1.0"
+description = "Pronóstico de nivel y volumen de los embalses de Cuba con GEOGLOWS"
+keywords = ["reservoir", "embalse", "geoglows", "tethys", "cuba"]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tethysapp*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+"tethysapp.reservoir_management_cuba" = [
+    "templates/**/*",
+    "public/**/*",
+    "workspaces/**/*",
+    "embalses_pronostico.json",
+]

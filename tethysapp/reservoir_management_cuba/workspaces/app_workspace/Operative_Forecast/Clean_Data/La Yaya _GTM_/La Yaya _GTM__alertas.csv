@@ -1,0 +1,6 @@
+﻿desde,hasta,dias,campo,valor,motivo
+2023-02-14,2023-02-14,1,nivel,66.44,fuera de la curva; el valor que daria la curva (66.520) tampoco empalma con los vecinos
+2023-02-15,2023-02-15,1,volumen,41.0,fuera de la curva; el valor que daria la curva (40.500) tampoco empalma con los vecinos
+2024-10-06,2024-10-07,2,volumen,41.2,fuera de la curva; el valor que daria la curva (41.850) tampoco empalma con los vecinos
+2025-04-03,2025-04-03,1,nivel/volumen,62.87 / 26.210,el par no cae en la curva y los vecinos no dicen cual falla
+2025-10-31,2025-10-31,1,volumen,165.5,fuera de la curva; el valor que daria la curva (168.563) tampoco empalma con los vecinos

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+tethysapp/reservoir_management_cuba/workspaces/app_workspace/cache/*.json
+tethysapp/reservoir_management_cuba/workspaces/app_workspace/cache/*.tmp
+tethysapp/reservoir_management_cuba/workspaces/app_workspace/Operative_Forecast/Forecast_Data/

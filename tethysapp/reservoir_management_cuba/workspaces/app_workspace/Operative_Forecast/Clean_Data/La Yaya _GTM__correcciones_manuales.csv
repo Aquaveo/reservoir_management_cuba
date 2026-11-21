@@ -1,0 +1,24 @@
+fecha,campo,valor,motivo
+2014-03-08,nivel,74.95,un solo digito (decia 75.95); el volumen 109.50 cae exacto sobre la curva en 74.95 y encaja entre 110.00 y 109.10. Este error hacia que los huecos del 7 y el 9 no se rellenaran
+2024-06-26,nivel,69.37,un solo digito (decia 59.39); el volumen 57.89 cae exacto sobre la curva en 69.37 y el nivel baja de 0.03 en 0.03 entre 69.40 y 69.34
+2013-03-27,nivel,77.84,un digito: 78.84 en vez de 77.84; el volumen 143.8 es 77.84 en la curva y sigue la bajada (77.91 el 23/03, 77.82 el 28/03). El 78.84 hacia que el relleno del 24 al 26/03 inventara una subida
+2015-12-29,nivel,68.13,el volumen 49.81 es 68.13 en la curva y encaja entre 68.18 y 68.09; 68.00 no
+2016-09-18,nivel,64.54,un digito: 65.54 en vez de 64.54; los vecinos estan en 64.55 y 64.53
+2016-09-18,volumen,31.96,un digito: 32.96 en vez de 31.96; 64.54 m en la curva, entre 32.00 y 31.92
+2017-06-17,nivel,66.21,el volumen 39.54 es 66.21 en la curva y encaja entre 66.22 y 66.23; 66.10 no
+2019-06-07,volumen,63.70,el volumen 61.28 repite el del 06/06 mientras el nivel ya estaba en 70.20; 70.20 m en la curva es 63.70 (igual que el 09/06)
+2019-06-08,volumen,63.70,igual que el 07/06: 70.20 m en la curva es 63.70
+2023-06-09,nivel,69.78,el volumen 60.85 es 69.78 en la curva y a las 16:00 el nivel ya era 69.80; 69.10 no encaja
+# 2023-06-10: el limpiador tomo la lectura de 00:00 (que traia 61.81 m); se usa la de 06:30
+2023-06-10,hora,06:30:00,se usa la lectura de 06:30, la mas cercana a las 08:00
+2023-06-10,entrega,0.027,lectura de las 06:30 (la de 00:00 traia 0)
+# 2025-03-17 a 19: los volumenes del portal (28.62 / 28.30 / 28.05) estan ~0.8 hm3 por debajo de la curva mientras el nivel baja parejo 0.04-0.05 m/dia (63.86 / 63.83 / 63.78 / 63.73 / 63.70)
+2025-03-17,nivel,63.83,revierte la correccion automatica (63.63): el nivel del portal 63.83 sigue la bajada pareja; lo que falla es el volumen
+2025-03-17,volumen,29.39,63.83 m en la curva; el portal traia 28.62
+2025-03-18,volumen,29.253,63.78 m en la curva; el portal traia 28.30
+# 2025-10-28: el limpiador tomo la lectura de 00:00; se usa la de 07:00
+2025-10-28,hora,07:00:00,se usa la lectura de 07:00, la mas cercana a las 08:00
+2025-10-28,nivel,66.58,lectura de las 07:00 (la elegida traia 66.56)
+2025-10-28,volumen,41.70,lectura de las 07:00 (la elegida traia 41.65)
+2025-10-28,entrega,0.013,lectura de las 07:00 (la elegida traia 0)
+2026-11-14,volumen,142.10,el volumen 140.4 no cae en la curva (seria 77.61 m); 77.72 m es 142.10 y sigue la subida hasta 142.4 el 15/11

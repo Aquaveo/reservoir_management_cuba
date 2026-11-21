@@ -1,0 +1,17 @@
+# Dependencias de la app (tethys install).
+version: 1.0
+name: reservoir_management_cuba
+
+requirements:
+  skip: false
+  conda:
+    channels:
+      - conda-forge
+    packages:
+      - pandas
+      - numpy
+      - statsmodels
+  pip:
+    - geoglows
+
+post:

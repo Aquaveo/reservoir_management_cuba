@@ -1,0 +1,91 @@
+{% extends "reservoir_management_cuba/base.html" %}
+{% load static %}
+
+{% block app_content %}
+<div class="pc app">
+  <div class="cabeza">
+    <h1>Embalse {{ nombre }}{% if provincia %} <span class="prov-titulo">{{ provincia }}</span>{% endif %}</h1>
+    <div class="sub" id="subtitulo"></div>
+  </div>
+  {% if hay %}
+  <ul class="nav nav-tabs pestanas-app" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="tab-pron-btn" data-bs-toggle="tab" data-bs-target="#tab-pron" type="button"
+              role="tab" aria-controls="tab-pron" aria-selected="true">Pronóstico</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="tab-hist-btn" data-bs-toggle="tab" data-bs-target="#tab-hist" type="button"
+              role="tab" aria-controls="tab-hist" aria-selected="false">Histórico</button>
+    </li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="tab-pron" role="tabpanel" aria-labelledby="tab-pron-btn">
+        <section>
+          <h2>Datos del pronóstico</h2>
+          <div class="datos" id="datos"></div>
+          <div class="avisos" id="avisos"></div>
+        </section>
+
+        <section aria-labelledby="h-pron">
+          <h2 id="h-pron">Versión del pronóstico y salidas del embalse</h2>
+          <div class="pestanas" id="pestanas" role="group" aria-label="Versión del pronóstico"></div>
+          <div class="controles">
+            <div class="grupo"><span>Entrega y desembalse:</span>
+              <div class="seg" id="modoED" role="group" aria-label="Entrega y desembalse"><button data-v="auto">Persistencia</button><button data-v="manual">Manual</button></div></div>
+            <div class="grupo"><span>Vertimiento:</span>
+              <div class="seg" id="modoV" role="group" aria-label="Vertimiento"><button data-v="auto" id="modoVauto"></button><button data-v="manual">Manual</button></div></div>
+            <div class="grupo"><span>Vista:</span>
+              <div class="seg" id="vista" role="group" aria-label="Vista del gráfico"><button data-v="stats">Estadísticos</button><button data-v="ens">Ensambles</button></div></div>
+          </div>
+          <div class="controles">
+            <div class="grupo"><label for="cual">Poner</label>
+              <select id="cual"><option value="ent">Entrega (hm³/día)</option><option value="des">Desembalse (hm³/día)</option><option value="ver">Vertimiento (m³/s)</option></select>
+              <label for="valorTodos" class="visualmente-oculto">Valor</label>
+              <input type="number" id="valorTodos" value="0" min="0" step="0.01" style="width:90px">
+              <button class="accion" id="aplicar">en todos los días</button></div>
+            <button class="accion" id="restablecer">Volver a los valores iniciales</button>
+          </div>
+          <div class="tabla-env"><table class="salidas" id="tabla"><caption class="visualmente-oculto">Salidas por día del pronóstico</caption></table></div>
+          <div class="nota" id="notaTabla"></div>
+          <dl class="resumen" id="resumen" aria-live="polite"></dl>
+          <div class="titulo-grafico" id="tituloGrafico"></div>
+          <div id="grafico" role="img" aria-label="Gráfico del pronóstico de nivel, volumen y salidas"></div>
+        </section>
+
+        <section aria-labelledby="h-desc">
+          <h2 id="h-desc">Descargar resultados</h2>
+          <div class="nota" style="margin:0 0 10px">El .zip trae una carpeta por versión (Raw, Bias_Correction, Bias_Correction+Assimilation), cada una con el pronóstico de caudal, el balance con los percentiles, y el nivel y el volumen de cada miembro. Cada versión sale con las salidas que tenga puestas en esta página en el momento de descargar.</div>
+          <button class="principal" id="descargar"></button><span class="estado" id="estadoDescarga" role="status"></span>
+        </section>
+  
+      <div class="pie">Pronóstico calculado el {{ generado }} por actualizar_embalses.py.</div>
+    </div>
+    <div class="tab-pane fade" id="tab-hist" role="tabpanel" aria-labelledby="tab-hist-btn">
+      <section aria-labelledby="h-hist">
+        <h2 id="h-hist">Serie limpia del portal SGIA</h2>
+        <div class="nota" style="margin-top:0">Lecturas diarias de las 08:00 después de la limpieza. Las líneas horizontales son las cotas de la ficha del embalse.</div>
+        <div id="graficoHist" role="img" aria-label="Gráfico histórico de nivel, volumen y caudal de entrada"></div>
+        <button class="accion" id="descargarHist">Descargar la serie (CSV)</button>
+      </section>
+    </div>
+  </div>
+  {{ datos|json_script:"datos-pronostico" }}
+  {{ historia|json_script:"datos-historia" }}
+  {% else %}
+  <section>
+    <h2>Todavía no hay pronóstico para este embalse</h2>
+    <p class="nota">Hay que correr <code>actualizar_embalses.py</code> después de descargar y limpiar los datos del portal.</p>
+  </section>
+  {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+  {{ block.super }}
+  {% if hay %}
+  <script src="{% static 'reservoir_management_cuba/vendor/plotly.min.js' %}"></script>
+  <script src="{% static 'reservoir_management_cuba/pronostico/nucleo.js' %}"></script>
+  <script src="{% static 'reservoir_management_cuba/pronostico/pagina.js' %}"></script>
+  <script src="{% static 'reservoir_management_cuba/js/embalse.js' %}"></script>
+  {% endif %}
+{% endblock %}

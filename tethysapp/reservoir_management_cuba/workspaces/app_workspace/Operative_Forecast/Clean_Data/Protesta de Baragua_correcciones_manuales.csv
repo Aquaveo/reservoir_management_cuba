@@ -1,0 +1,57 @@
+fecha,campo,valor,motivo
+2014-09-08,nivel,92.30,"transposicion de digitos (93.20 por 92.30); la curva da 92.30 para el volumen 131.20, igual que el 09-05, 09-10 y 09-11"
+2014-09-09,nivel,92.30,"transposicion de digitos (93.20 por 92.30); la curva da 92.30 para el volumen 131.20, igual que el 09-05, 09-10 y 09-11"
+2015-03-28,nivel,88.93,"un solo digito (9->8); la curva da 88.93 para el volumen 75.393 y los vecinos bajan a -0.053 m/dia"
+2025-10-28,vertimiento,8.1,"el portal reporta 8.100 en las 12 lecturas subdiarias del dia; el 8100 lo genero la regla de coma al compararlo con el pico de Melissa del 29"
+# --- revision 2026-11-17 ---
+2013-05-13,volumen,193.570,el volumen 194.795 repite el del 12/05 (94.91 m); 94.86 m en la curva es 193.570
+2018-05-18,volumen,251.360,un digito: 250.360 en vez de 251.360; 97.04 m en la curva (igual que el 17/05)
+2018-10-24,volumen,250.680,un digito: 251.680 en vez de 250.680; 97.02 m en la curva (igual que el 26/10)
+2018-10-25,volumen,250.680,un digito: 251.680 en vez de 250.680; 97.02 m en la curva
+# 2019-09-25 a 27: el volumen quedo fijo en 187.2-187.3 mientras el nivel bajaba 94.60 / 94.55 / 94.49 / 94.42 con una entrega de 2.45 hm3/dia
+2019-09-25,volumen,185.975,volumen fijo del dia anterior; 94.55 m en la curva
+2019-09-26,volumen,184.505,volumen fijo; 94.49 m en la curva
+2019-09-27,volumen,182.790,volumen fijo; 94.42 m en la curva
+2020-04-09,desembalse,0.0691,desembalse aislado de 0.8; como hm3/dia el volumen sigue bajando igual (-0.245) que los dias vecinos. Se respeta como desembalse real, leido como m3/s: 0.8 x 0.0864 (mismo criterio que Hanabanilla y Porvenir)
+2023-03-14,volumen,108.800,un digito: 109.800 en vez de 108.800; 91.05 m en la curva
+2023-07-05,volumen,252.720,un digito: 251.720 en vez de 252.720; 97.08 m en la curva (igual que el 06/07)
+# 2025-10-31 (Melissa): 97.00 / 250.000 es relleno (el NAN y el volumen autorizado exactos). El vertimiento 256.144 del parte corresponde a 97.40 m con la ecuacion del vertedero 1014 x (h - 97.00)^1.5
+2025-10-31,nivel,97.40,97.00 / 250.000 es relleno; el vertimiento 256.144 da 97.40 m (recesion 97.99 / 97.40 / 97.30 / 97.25)
+2025-10-31,volumen,263.600,97.40 m en la curva
+# 2026-09-24 a 10-08: nivel 97.10 por 97.01 (digitos invertidos). El volumen 250.74 y el vertimiento 1.012 de esos dias corresponden a 97.01-97.02 m, y el 11/10 el portal vuelve a 97.01
+2026-09-24,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-09-25,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-09-27,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-09-28,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-09-29,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-09-30,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-01,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-02,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-03,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-04,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-05,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-06,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-07,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+2026-10-08,nivel,97.01,digitos invertidos: 97.10 en vez de 97.01; el volumen 250.74 y el vertimiento 1.012 (vertedero) corresponden a 97.01
+# 2019-08-29: dos lecturas (07:06 y 07:10); la de 07:10 (94.65) cae en la curva con 188.425
+2019-08-29,hora,07:10:00,lectura de las 07:10
+2019-08-29,nivel,94.65,lectura de las 07:10 (la elegida traia 94.68)
+# 2020-08-22: el limpiador tomo la lectura de 00:00; se usa el parte de la manana
+2020-08-22,hora,06:51:00,lectura de las 06:51
+2020-08-22,entrega,1.528,lectura de las 06:51 (la elegida traia 0.509)
+# 2020-08-24: tormenta Laura: la lectura de 00:00 (93.32) esta fuera de orden (encaja despues de la de 22:00); se usa la de 06:52
+2020-08-24,hora,06:52:00,lectura de las 06:52
+2020-08-24,nivel,92.65,lectura de las 06:52 (la elegida traia 93.32)
+2020-08-24,volumen,139.6,lectura de las 06:52 (la elegida traia 155.84)
+2020-08-24,entrega,0.058,lectura de las 06:52 (la elegida traia 1.626)
+# 2021-10-09: dos lecturas (06:31 y 07:05); se usa la mas cercana a las 08:00
+2021-10-09,hora,07:05:00,lectura de las 07:05
+2021-10-09,nivel,96.32,lectura de las 07:05 (la elegida traia 96.34)
+2021-10-09,volumen,231.98,lectura de las 07:05 (la elegida traia 232.51)
+2021-10-09,entrega,0.095,lectura de las 07:05 (la elegida traia 0.033)
+# 2023-06-09: crecida: el limpiador tomo la lectura de 02:00; se usa la de 07:04, la mas cercana a las 08:00
+2023-06-09,hora,07:04:00,lectura de las 07:04
+2023-06-09,nivel,97.01,lectura de las 07:04 (la elegida traia 96.85)
+2023-06-09,volumen,250.34,lectura de las 07:04 (la elegida traia 246.025)
+2023-06-09,entrega,0.033,lectura de las 07:04 (la elegida traia 0.034)
+2023-06-09,vertimiento,1.012,lectura de las 07:04 (la elegida traia 0)

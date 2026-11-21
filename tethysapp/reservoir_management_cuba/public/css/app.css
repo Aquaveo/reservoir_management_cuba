@@ -1,0 +1,44 @@
+/* app.css - lo propio de la app Tethys. Los estilos de la pagina de pronostico
+   estan en pronostico/pagina.css (los mismos de pronosticar.py). */
+
+.pc.app { min-height: 0; background: transparent; padding: 4px 0 24px; }
+.pc.app .cabeza { margin: 0 0 12px; }
+.pc.app .cabeza h1 { font-size: 22px; margin: 0 0 4px; }
+.pc.app .prov-titulo { font-size: 15px; font-weight: 400; color: var(--tenue); margin-left: 6px; }
+.pc.app .pie { font-size: 12px; color: var(--tenue); margin-top: 6px; }
+
+/* pestanas Pronostico / Historico (Bootstrap) */
+.pc.app .pestanas-app { margin-bottom: 12px; }
+.pc.app .pestanas-app .nav-link { color: var(--tinta); font-size: 14px; }
+.pc.app .pestanas-app .nav-link.active { color: var(--acento); font-weight: 600; }
+
+/* portada: mapa y lista */
+.pc.app .portada { display: grid; grid-template-columns: minmax(320px, 5fr) 7fr; gap: 14px; align-items: start; }
+.pc.app .mapa { height: 560px; border: 1px solid var(--borde); border-radius: 8px; }
+.pc.app .lista { margin: 0; }
+.pc.app table.resumen-embalses { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.pc.app table.resumen-embalses th, .pc.app table.resumen-embalses td { padding: 7px 8px; border-bottom: 1px solid var(--borde); text-align: left; vertical-align: top; }
+.pc.app table.resumen-embalses thead th { font-size: 12px; color: var(--tenue); font-weight: 600; }
+.pc.app table.resumen-embalses .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pc.app table.resumen-embalses tbody th a { color: var(--acento); font-weight: 600; text-decoration: none; }
+.pc.app table.resumen-embalses tbody th a:hover { text-decoration: underline; }
+.pc.app .prov { display: block; font-size: 12px; color: var(--tenue); font-weight: 400; }
+.pc.app .cambio { display: block; font-size: 12px; color: var(--tenue); }
+.pc.app .cambio.sube { color: #1e5b8f; }
+.pc.app .cambio.baja { color: #b45309; }
+.pc.app .marca-aviso, .pc.app .marca-vierte { display: inline-block; font-size: 11px; border-radius: 4px; padding: 0 5px; }
+.pc.app .marca-aviso { background: var(--aviso-fondo); color: var(--aviso); }
+.pc.app .marca-vierte { background: #e7f1fb; color: #1e5b8f; }
+.pc.app .sin-datos { color: var(--tenue); }
+
+/* historico */
+.pc.app #graficoHist { width: 100%; height: 640px; margin: 8px 0 10px; }
+
+/* popup del mapa */
+.leaflet-popup-content .popup { font-size: 13px; line-height: 1.5; }
+.leaflet-popup-content .popup .prov { color: #5b6b7a; font-size: 12px; }
+
+@media (max-width: 1000px) {
+  .pc.app .portada { grid-template-columns: 1fr; }
+  .pc.app .mapa { height: 380px; }
+}

@@ -1,0 +1,18 @@
+fecha,campo,valor,motivo
+2013-05-29,nivel,85.80,el volumen 366.146 es 85.80 en la curva y encaja entre 85.78 y 85.84; 85.88 no
+2013-11-01,nivel,85.75,el volumen 365.350 es 85.75 en la curva y encaja entre 85.82 y 85.70; 85.65 no
+2014-04-20,volumen,356.042,el volumen 353.540 (el del NAN, 85.00 m) no cae en la curva; 85.16 m es 356.042 y encaja entre 355.886 y 356.669
+2015-09-05,volumen,353.540,el volumen 353.230 no cae en la curva; 85.00 m es 353.540 (igual que el 04 y 06/09)
+2016-07-12,volumen,358.867,un digito: 359.867 en vez de 358.867; 85.34 m en la curva
+2017-11-01,volumen,358.081,digitos cambiados: 358.810 en vez de 358.081; 85.29 m en la curva
+2019-06-08,nivel,86.54,el volumen 378.035 repite el del 07/06 (86.54 m); 86.70 rompe la secuencia 86.54 / ? / 86.61
+2019-07-02,nivel,85.35,el volumen 359.026 es 85.35 en la curva y encaja entre 85.40 y 85.30; 85.45 no
+2019-09-12,volumen,361.073,un digito: 361.573 en vez de 361.073; 85.48 m en la curva (igual que el 11/09)
+# 2023-06-08/09: crecida. El 08/06 solo hay lectura de 19:00 con 85.50 m y vertimiento 25.51: el embalse ya vertia, asi que el nivel 85.50 es el bueno y el volumen 353.540 (el del NAN) no
+2023-06-08,nivel,85.50,revierte la correccion automatica (85.00): con 85.00 m (la cresta) no habria vertimiento y el parte trae 25.51 m3/s
+2023-06-08,volumen,361.389,85.50 m en la curva; el portal traia 353.540 (el volumen del NAN)
+2023-06-09,volumen,380.635,un digito: 380.135 en vez de 380.635; 86.70 m en la curva (igual que las lecturas de 16:00 a 04:00)
+# 2025-10-28: el limpiador tomo la lectura de 00:00; se usa la de 06:00
+2025-10-28,hora,06:00:00,se usa la lectura de 06:00, la mas cercana a las 08:00
+2025-10-28,nivel,79.67,lectura de las 06:00 (la elegida traia 79.60)
+2025-10-28,volumen,276.041,lectura de las 06:00 (la elegida traia 275.097)

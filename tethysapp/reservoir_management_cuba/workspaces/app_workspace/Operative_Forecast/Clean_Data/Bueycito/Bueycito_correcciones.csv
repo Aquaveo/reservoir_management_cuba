@@ -1,0 +1,37 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-01-12,volumen,100.14,100.14,correccion manual,el volumen 100.884 no cae en la curva y sube cuando el nivel baja; 100.80 m en la curva es 100.140 (igual que el 13 y 14)
+2013-02-22,nivel,93.33,99.33,curva nivel-volumen,un solo digito de diferencia: 99.33 en vez de 93.33
+2013-10-31,llenadoretenible,51.1,51.1,correccion manual,"el mismo numero mal tecleado: el portal traia volumen y llenadoretenible los dos en 50.10 y en esa epoca coinciden. No entra en ningun calculo, es para que la fila quede consistente"
+2013-10-31,volumen,51.1,51.1,correccion manual,"50.10 y 51.10 difieren en un digito y 51.10 cae entre los vecinos 50.82 y 51.38. El par (94.70, 51.10) es el UNICO de toda la curva que esta a un digito de los dos valores observados, y cae exacto sobre ella"
+2013-10-31,nivel,94.7,94.7,correccion manual,fallan los DOS valores y el detector automatico supone que uno esta bien. 90.70 y 94.70 difieren en un digito; 94.70 cae entre los vecinos 94.66 y 94.74. El dia siguiente traia el mismo error (90.74 por 94.74) y ese si se corrigio solo
+2013-11-01,nivel,90.74,94.74,curva nivel-volumen,un solo digito de diferencia: 94.74 en vez de 90.74
+2014-06-06,vertimiento,0.131,0.0,vertimiento bajo la cresta,"vierte 0.131 m3/s con el nivel en 91.43 m, por debajo de la cresta (umbral 105.70 m); es la entrega del dia copiada"
+2015-10-11,registro completo,nivel 95.97 / volumen 59.796 / entrega 0.081,descartado,fecha corrompida,"el par cae en la curva pero es incompatible con los dos dias vecinos (97.81 y 98.07), que entre si son continuos"
+2016-06-11,nivel,101.99,101.99,correccion manual,un digito: 101.89 en vez de 101.99; el volumen 111.9 es 101.99 (igual que el 12 y 13)
+2017-06-27,nivel,92.57,93.57,curva nivel-volumen,un solo digito de diferencia: 93.57 en vez de 92.57
+2018-01-05,vertimiento,24.0,0.0,vertimiento bajo la cresta,"vierte 24.000 m3/s con el nivel en 105.02 m, por debajo de la cresta (umbral 105.70 m)"
+2018-08-22,desembalse,1.0044,1.0044,correccion manual,el portal dio 11.625; como hm3/dia el volumen no lo respalda (vario 0.32 hm3). Leido como m3/s: 11.625 x 0.0864
+2018-08-23,desembalse,1.0044,1.0044,correccion manual,igual que el 22/08: 11.625 m3/s x 0.0864
+2019-01-09,volumen,141.28,144.28,curva nivel-volumen,un solo digito de diferencia: 144.280 en vez de 141.280
+2019-08-28,nivel,97.43,93.47,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2020-01-08,nivel,96.88,96.68,curva nivel-volumen,un solo digito de diferencia: 96.68 en vez de 96.88
+2020-01-09,volumen,65.6,65.6,correccion manual,el volumen 65.00 no cae en la curva; 96.70 m en la curva es 65.60
+2020-11-07,volumen,89.676,89.676,correccion manual,lectura de las 16:00
+2020-11-07,hora,16:00:00,16:00:00,correccion manual,se usa la lectura de 16:00; la de 00:00 rompe la secuencia
+2020-11-07,nivel,99.64,99.64,correccion manual,lectura de las 16:00
+2021-03-17,nivel,104.16,104.16,correccion manual,el volumen 133.12 baja parejo con los vecinos (-0.14 al dia) y en la curva es 104.16; 104.10 no
+2023-06-09,entrega,0.014,0.014,correccion manual,lectura de las 10:00
+2023-06-09,volumen,135.01,135.01,correccion manual,lectura de las 10:00
+2023-06-09,nivel,104.43,104.43,correccion manual,lectura de las 10:00
+2023-06-09,hora,10:00:00,10:00:00,correccion manual,la de 08:00 (102.11) cae entre 06:00 (104.09) y 10:00 (104.43) y rompe la subida; se usa la de 10:00
+2023-06-10,vertimiento,0.0,0.0,correccion manual,lectura de las 07:00; 105.64 m esta bajo la cresta
+2023-06-10,nivel,105.64,105.64,correccion manual,lectura de las 07:00
+2023-06-10,hora,07:00:00,07:00:00,correccion manual,la de 08:00 (106.55 / 46.195) es casi el parte del 11/06 (106.56 / 46.195) mal fechado; a las 12:00 el nivel era 106.31. Se usa la de 07:00
+2023-06-10,volumen,149.24,149.24,correccion manual,lectura de las 07:00
+2023-11-01,vertimiento,9.0,0.009,correccion manual,revierte la regla automatica (x1000 = 9.0): con 106.26 m la tabla de vertimiento de Bueycito da 0.009 (igual que el 29 y 31/10)
+2023-11-01,vertimiento,0.009,9.0,vertimiento coma de lugar,0.009 m3/s entre vecinos de 10.3; por mil queda 9.0
+2024-11-07,volumen,161.571,161.571,correccion manual,un digito: 161.971 en vez de 161.571; 106.40 m en la curva (y el vertimiento 10.779 es el de 106.40)
+2025-11-29,vertimiento,9.0,0.009,correccion manual,revierte la regla automatica (x1000 = 9.0): con 106.26 m la tabla de vertimiento da 0.009 (igual que el 28/11)
+2025-11-29,vertimiento,0.009,9.0,vertimiento coma de lugar,0.009 m3/s entre vecinos de 5.4; por mil queda 9.0
+2026-08-26,volumen,138.86,138.86,correccion manual,un digito: 138.36 en vez de 138.86; 104.98 m en la curva
+2026-10-04,volumen,135.5,135.5,correccion manual,un digito: 135.00 en vez de 135.50; 104.50 m en la curva

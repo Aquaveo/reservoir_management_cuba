@@ -1,0 +1,22 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-05-22,volumen,244.416,240.416,curva nivel-volumen,un solo digito de diferencia: 240.416 en vez de 244.416
+2013-06-15,volumen,147.005,247.005,curva nivel-volumen,un solo digito de diferencia: 247.005 en vez de 147.005
+2013-07-02,entrega,99.05,0.099,potencia de diez,133 veces la entrega habitual (p75 0.743); /1000 queda en 0.099 (entrega garantizada diaria de la ficha: 0.890)
+2013-11-12,nivel,32.9,32.39,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2013-12-20,nivel,32.39,32.29,curva nivel-volumen,un solo digito de diferencia: 32.29 en vez de 32.39
+2014-03-21,nivel,31.37,31.77,curva nivel-volumen,un solo digito de diferencia: 31.77 en vez de 31.37
+2014-05-03,vertimiento,0.6386,0.0,vertimiento bajo la cresta,"vierte 0.639 m3/s con el nivel en 31.14 m, por debajo de la cresta (umbral 31.82 m)"
+2014-05-12,nivel,21.11,31.11,curva nivel-volumen,un solo digito de diferencia: 31.11 en vez de 21.11
+2014-10-31,nivel,31.02,32.01,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2014-11-21,nivel,31.67,31.77,curva nivel-volumen,un solo digito de diferencia: 31.77 en vez de 31.67
+2016-05-21,nivel,30.87,30.78,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2016-06-16,nivel,30.67,30.77,curva nivel-volumen,un solo digito de diferencia: 30.77 en vez de 30.67
+2017-02-27,nivel,29.5,29.05,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2017-09-28,nivel,31.22,31.32,curva nivel-volumen,un solo digito de diferencia: 31.32 en vez de 31.22
+2018-03-19,nivel,31.21,32.21,curva nivel-volumen,un solo digito de diferencia: 32.21 en vez de 31.21
+2018-09-04,nivel,34.44,32.44,curva nivel-volumen,un solo digito de diferencia: 32.44 en vez de 34.44
+2019-06-18,entrega,0.7767,0.7767,correccion manual,un orden de magnitud: 7.767 en vez de 0.7767; la entrega de esos dias va de 0.67 a 0.83 y el valor malo daba un Qin de 82 m3/s
+2019-06-19,nivel,30.47,30.47,correccion manual,el volumen 218.250 cae en 30.47 en la curva (igual que el 20/06) y la serie de volumen baja pareja; 30.39 rompe la secuencia
+2020-10-24,desembalse,0.432,0.432,correccion manual,el portal lo dio en m3/s (5) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 5 x 0.0864
+2020-12-03,volumen,68.165,368.165,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2022-11-08,volumen,354.765,354.765,correccion manual,un solo digito: 357.765 en vez de 354.765; 32.35 m en la curva es 354.765 (igual que el 09/11 y el 13/11)

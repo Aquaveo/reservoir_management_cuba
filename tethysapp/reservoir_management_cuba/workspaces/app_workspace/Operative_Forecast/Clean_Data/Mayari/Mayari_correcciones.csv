@@ -1,0 +1,31 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-05-29,nivel,85.8,85.8,correccion manual,el volumen 366.146 es 85.80 en la curva y encaja entre 85.78 y 85.84; 85.88 no
+2013-11-01,nivel,85.75,85.75,correccion manual,el volumen 365.350 es 85.75 en la curva y encaja entre 85.82 y 85.70; 85.65 no
+2014-04-20,volumen,356.042,356.042,correccion manual,"el volumen 353.540 (el del NAN, 85.00 m) no cae en la curva; 85.16 m es 356.042 y encaja entre 355.886 y 356.669"
+2014-04-28,volumen,353.4,362.971,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2014-09-15,volumen,355.654,359.654,curva nivel-volumen,un solo digito de diferencia: 359.654 en vez de 355.654
+2015-04-09,nivel,84.86,84.16,curva nivel-volumen,un solo digito de diferencia: 84.16 en vez de 84.86
+2015-06-17,nivel,84.64,85.64,curva nivel-volumen,un solo digito de diferencia: 85.64 en vez de 84.64
+2015-09-05,volumen,353.54,353.54,correccion manual,el volumen 353.230 no cae en la curva; 85.00 m es 353.540 (igual que el 04 y 06/09)
+2015-10-12,nivel,94.93,84.93,curva nivel-volumen,un solo digito de diferencia: 84.93 en vez de 94.93
+2015-10-13,nivel,94.93,84.93,curva nivel-volumen,un solo digito de diferencia: 84.93 en vez de 94.93
+2016-07-12,volumen,358.867,358.867,correccion manual,un digito: 359.867 en vez de 358.867; 85.34 m en la curva
+2017-11-01,volumen,358.081,358.081,correccion manual,digitos cambiados: 358.810 en vez de 358.081; 85.29 m en la curva
+2019-06-08,nivel,86.54,86.54,correccion manual,el volumen 378.035 repite el del 07/06 (86.54 m); 86.70 rompe la secuencia 86.54 / ? / 86.61
+2019-07-02,nivel,85.35,85.35,correccion manual,el volumen 359.026 es 85.35 en la curva y encaja entre 85.40 y 85.30; 85.45 no
+2019-09-12,volumen,361.073,361.073,correccion manual,un digito: 361.573 en vez de 361.073; 85.48 m en la curva (igual que el 11/09)
+2019-10-23,nivel,86.65,85.65,curva nivel-volumen,un solo digito de diferencia: 85.65 en vez de 86.65
+2020-11-09,nivel,85.26,85.86,curva nivel-volumen,un solo digito de diferencia: 85.86 en vez de 85.26
+2021-07-01,nivel,85.03,86.03,curva nivel-volumen,un solo digito de diferencia: 86.03 en vez de 85.03
+2023-06-04,nivel,82.0,84.0,curva nivel-volumen,un solo digito de diferencia: 84.00 en vez de 82.00
+2023-06-08,volumen,361.389,361.389,correccion manual,85.50 m en la curva; el portal traia 353.540 (el volumen del NAN)
+2023-06-08,nivel,85.5,85.5,correccion manual,revierte la correccion automatica (85.00): con 85.00 m (la cresta) no habria vertimiento y el parte trae 25.51 m3/s
+2023-06-09,volumen,380.635,380.635,correccion manual,un digito: 380.135 en vez de 380.635; 86.70 m en la curva (igual que las lecturas de 16:00 a 04:00)
+2024-10-30,nivel,68.84,78.84,curva nivel-volumen,un solo digito de diferencia: 78.84 en vez de 68.84
+2024-10-31,nivel,68.74,78.74,curva nivel-volumen,un solo digito de diferencia: 78.74 en vez de 68.74
+2024-12-06,vertimiento,8.5,0.0,vertimiento bajo la cresta,"vierte 8.500 m3/s con el nivel en 81.05 m, por debajo de la cresta (umbral 84.42 m)"
+2025-06-11,registro completo,nivel 79.59 / volumen 274.963 / entrega 0.0,descartado,fecha corrompida,"el par cae en la curva pero es incompatible con los dos dias vecinos (77.51 y 77.43), que entre si son continuos"
+2025-10-28,hora,06:00:00,06:00:00,correccion manual,"se usa la lectura de 06:00, la mas cercana a las 08:00"
+2025-10-28,volumen,276.041,276.041,correccion manual,lectura de las 06:00 (la elegida traia 275.097)
+2025-10-28,nivel,79.67,79.67,correccion manual,lectura de las 06:00 (la elegida traia 79.60)
+2025-10-30,vertimiento,0.516,516.0,vertimiento coma de lugar,0.516 m3/s entre vecinos de 261.2; por mil queda 516.0

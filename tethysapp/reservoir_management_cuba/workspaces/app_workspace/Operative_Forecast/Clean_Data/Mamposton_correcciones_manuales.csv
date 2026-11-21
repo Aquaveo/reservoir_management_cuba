@@ -1,0 +1,36 @@
+fecha,campo,valor,motivo
+2019-11-04,entrega,0.0212,"registro en m3 en columna de hm3: 21200 m3 = 0.0212 hm3, igual que los vecinos (0.021)"
+2021-07-23,nivel,116.17,un solo digito (6->3); el volumen 10.527 ya corresponde a 116.17 en la curva
+2024-03-12,volumen,9.88,un solo digito (5->9); la curva da 9.951 para el nivel 115.95
+2026-09-27,volumen,23.5,"un solo digito (5->3); la curva da 23.50 para 119.70, igual que los vecinos"
+2026-10-08,volumen,24.0,"un solo digito (9->4); la curva da 24.0 para 119.80, igual que los vecinos"
+2026-10-11,volumen,24.0,"un solo digito (9->4); la curva da 24.0 para 119.80, igual que los vecinos"
+# 2019-03-04 a 2019-06-23: vertimiento 1.5 m3/s con el nivel en 123-124 m, 8-9 m por debajo del NAN (132.64): el embalse no puede verter. El desembalse de esos dias (5.905 a 7.769) crece ~0.099 por dia como un contador acumulado, no es una salida diaria (seria 15% del embalse por dia con el nivel bajando 1 cm/dia)
+2019-03-04,vertimiento,0,1.5 m3/s imposible: nivel 124.42 m, 8-9 m bajo el NAN (132.64)
+2019-05-16,vertimiento,0,1.5 m3/s imposible: nivel 123.69 m, 8-9 m bajo el NAN (132.64)
+2019-05-16,desembalse,0,5.905 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-04,vertimiento,0,1.5 m3/s imposible: nivel 123.50 m, 8-9 m bajo el NAN (132.64)
+2019-06-04,desembalse,0,6.382 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-07,vertimiento,0,1.5 m3/s imposible: nivel 123.47 m, 8-9 m bajo el NAN (132.64)
+2019-06-07,desembalse,0,6.678 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-08,vertimiento,0,1.5 m3/s imposible: nivel 123.46 m, 8-9 m bajo el NAN (132.64)
+2019-06-08,desembalse,0,6.777 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-09,vertimiento,0,1.5 m3/s imposible: nivel 123.45 m, 8-9 m bajo el NAN (132.64)
+2019-06-09,desembalse,0,6.876 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-10,vertimiento,0,1.5 m3/s imposible: nivel 123.44 m, 8-9 m bajo el NAN (132.64)
+2019-06-10,desembalse,0,6.975 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-11,vertimiento,0,1.5 m3/s imposible: nivel 123.43 m, 8-9 m bajo el NAN (132.64)
+2019-06-11,desembalse,0,7.073 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-18,vertimiento,0,1.5 m3/s imposible: nivel 123.36 m, 8-9 m bajo el NAN (132.64)
+2019-06-18,desembalse,0,7.571 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-19,vertimiento,0,1.5 m3/s imposible: nivel 123.35 m, 8-9 m bajo el NAN (132.64)
+2019-06-19,desembalse,0,7.67 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-20,vertimiento,0,1.5 m3/s imposible: nivel 123.34 m, 8-9 m bajo el NAN (132.64)
+2019-06-20,desembalse,0,7.769 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.07 hm3
+2019-06-21,vertimiento,0,1.5 m3/s imposible: nivel 123.34 m, 8-9 m bajo el NAN (132.64)
+2019-06-21,desembalse,0,7.769 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.00 hm3
+2019-06-22,vertimiento,0,1.5 m3/s imposible: nivel 123.34 m, 8-9 m bajo el NAN (132.64)
+2019-06-22,desembalse,0,7.769 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.00 hm3
+2019-06-23,vertimiento,0,1.5 m3/s imposible: nivel 123.34 m, 8-9 m bajo el NAN (132.64)
+2019-06-23,desembalse,0,7.769 es un contador acumulado (sube ~0.099/dia), no una salida diaria; el volumen solo bajo 0.00 hm3
+2020-01-05,volumen,38.513,un digito: 37.513 en vez de 38.513; el nivel 122.34 es el mismo del 04/01 (38.513)

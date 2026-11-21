@@ -1,0 +1,83 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-03-27,nivel,77.84,77.84,correccion manual,"un digito: 78.84 en vez de 77.84; el volumen 143.8 es 77.84 en la curva y sigue la bajada (77.91 el 23/03, 77.82 el 28/03). El 78.84 hacia que el relleno del 24 al 26/03 inventara una subida"
+2013-05-04,nivel,76.32,77.32,curva nivel-volumen,un solo digito de diferencia: 77.32 en vez de 76.32
+2013-08-17,nivel,79.89,76.89,curva nivel-volumen,un solo digito de diferencia: 76.89 en vez de 79.89
+2014-03-08,nivel,74.95,74.95,correccion manual,un solo digito (decia 75.95); el volumen 109.50 cae exacto sobre la curva en 74.95 y encaja entre 110.00 y 109.10. Este error hacia que los huecos del 7 y el 9 no se rellenaran
+2014-05-19,volumen,102.0,104.0,curva nivel-volumen,un solo digito de diferencia: 104.000 en vez de 102.000
+2014-10-22,nivel,74.06,74.79,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2015-03-02,nivel,78.95,72.15,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2015-06-12,nivel,80.05,70.05,curva nivel-volumen,un solo digito de diferencia: 70.05 en vez de 80.05
+2015-08-01,nivel,68.05,68.71,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2015-10-21,nivel,69.01,69.91,curva nivel-volumen,un solo digito de diferencia: 69.91 en vez de 69.01
+2015-11-20,volumen,55.08,55.88,curva nivel-volumen,un solo digito de diferencia: 55.880 en vez de 55.080
+2015-12-12,nivel,65.58,68.58,curva nivel-volumen,un solo digito de diferencia: 68.58 en vez de 65.58
+2015-12-29,nivel,68.13,68.13,correccion manual,el volumen 49.81 es 68.13 en la curva y encaja entre 68.18 y 68.09; 68.00 no
+2016-02-25,nivel,66.55,66.52,curva nivel-volumen,un solo digito de diferencia: 66.52 en vez de 66.55
+2016-09-18,volumen,31.96,31.96,correccion manual,"un digito: 32.96 en vez de 31.96; 64.54 m en la curva, entre 32.00 y 31.92"
+2016-09-18,nivel,64.54,64.54,correccion manual,un digito: 65.54 en vez de 64.54; los vecinos estan en 64.55 y 64.53
+2016-09-19,nivel,64.63,64.53,curva nivel-volumen,un solo digito de diferencia: 64.53 en vez de 64.63
+2016-09-30,vertimiento,0.09,0.0,vertimiento bajo la cresta,"vierte 0.090 m3/s con el nivel en 64.67 m, por debajo de la cresta (umbral 78.61 m)"
+2016-10-08,nivel,65.85,65.25,curva nivel-volumen,un solo digito de diferencia: 65.25 en vez de 65.85
+2017-01-02,nivel,74.01,64.04,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2017-02-27,nivel,61.25,62.94,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2017-06-17,nivel,66.21,66.21,correccion manual,el volumen 39.54 es 66.21 en la curva y encaja entre 66.22 y 66.23; 66.10 no
+2017-09-04,nivel,65.23,65.33,curva nivel-volumen,un solo digito de diferencia: 65.33 en vez de 65.23
+2017-10-07,nivel,76.46,70.46,curva nivel-volumen,un solo digito de diferencia: 70.46 en vez de 76.46
+2018-03-03,nivel,70.68,70.92,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2018-04-11,nivel,70.15,70.25,curva nivel-volumen,un solo digito de diferencia: 70.25 en vez de 70.15
+2018-04-26,nivel,70.58,70.38,curva nivel-volumen,un solo digito de diferencia: 70.38 en vez de 70.58
+2018-05-05,volumen,77.84,67.94,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2018-05-06,volumen,67.12,68.12,curva nivel-volumen,un solo digito de diferencia: 68.120 en vez de 67.120
+2018-06-10,vertimiento,1.564,0.0,vertimiento bajo la cresta,"vierte 1.564 m3/s con el nivel en 72.24 m, por debajo de la cresta (umbral 78.61 m)"
+2018-06-17,vertimiento,1.269,0.0,vertimiento bajo la cresta,"vierte 1.269 m3/s con el nivel en 72.24 m, por debajo de la cresta (umbral 78.61 m)"
+2018-07-21,vertimiento,0.203,0.0,vertimiento bajo la cresta,"vierte 0.203 m3/s con el nivel en 71.96 m, por debajo de la cresta (umbral 78.61 m)"
+2018-10-28,nivel,71.1,71.89,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2018-12-24,nivel,71.57,71.67,curva nivel-volumen,un solo digito de diferencia: 71.67 en vez de 71.57
+2019-06-07,volumen,63.7,63.7,correccion manual,el volumen 61.28 repite el del 06/06 mientras el nivel ya estaba en 70.20; 70.20 m en la curva es 63.70 (igual que el 09/06)
+2019-06-08,volumen,63.7,63.7,correccion manual,igual que el 07/06: 70.20 m en la curva es 63.70
+2019-06-09,volumen,61.28,63.7,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2019-08-07,nivel,69.55,69.65,curva nivel-volumen,un solo digito de diferencia: 69.65 en vez de 69.55
+2019-08-08,nivel,69.54,69.64,curva nivel-volumen,un solo digito de diferencia: 69.64 en vez de 69.54
+2019-09-05,volumen,55.06,55.88,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2019-09-28,nivel,71.75,71.85,curva nivel-volumen,un solo digito de diferencia: 71.85 en vez de 71.75
+2019-10-06,volumen,92.1,93.1,curva nivel-volumen,un solo digito de diferencia: 93.100 en vez de 92.100
+2020-05-19,nivel,73.29,73.21,curva nivel-volumen,un solo digito de diferencia: 73.21 en vez de 73.29
+2020-05-20,volumen,88.66,89.66,curva nivel-volumen,un solo digito de diferencia: 89.660 en vez de 88.660
+2020-05-21,volumen,88.42,89.42,curva nivel-volumen,un solo digito de diferencia: 89.420 en vez de 88.420
+2020-05-22,volumen,88.18,89.18,curva nivel-volumen,un solo digito de diferencia: 89.180 en vez de 88.180
+2022-12-29,volumen,46.44,46.94,curva nivel-volumen,un solo digito de diferencia: 46.940 en vez de 46.440
+2023-02-13,nivel,66.56,66.53,curva nivel-volumen,un solo digito de diferencia: 66.53 en vez de 66.56
+2023-06-09,nivel,69.78,69.78,correccion manual,el volumen 60.85 es 69.78 en la curva y a las 16:00 el nivel ya era 69.80; 69.10 no encaja
+2023-06-10,hora,06:30:00,06:30:00,correccion manual,"se usa la lectura de 06:30, la mas cercana a las 08:00"
+2023-06-10,entrega,0.027,0.027,correccion manual,lectura de las 06:30 (la de 00:00 traia 0)
+2023-06-10,nivel,61.81,69.81,curva nivel-volumen,un solo digito de diferencia: 69.81 en vez de 61.81
+2023-06-13,volumen,62.28,63.28,curva nivel-volumen,un solo digito de diferencia: 63.280 en vez de 62.280
+2023-07-20,vertimiento,9.0,0.0,vertimiento bajo la cresta,"vierte 9.000 m3/s con el nivel en 70.11 m, por debajo de la cresta (umbral 78.61 m)"
+2024-03-03,vertimiento,0.119,0.0,vertimiento bajo la cresta,"vierte 0.119 m3/s con el nivel en 70.97 m, por debajo de la cresta (umbral 78.61 m); es la entrega del dia copiada"
+2024-04-24,volumen,58.28,59.28,curva nivel-volumen,un solo digito de diferencia: 59.280 en vez de 58.280
+2024-06-26,nivel,69.37,69.37,correccion manual,un solo digito (decia 59.39); el volumen 57.89 cae exacto sobre la curva en 69.37 y el nivel baja de 0.03 en 0.03 entre 69.40 y 69.34
+2024-06-27,nivel,59.34,69.34,curva nivel-volumen,un solo digito de diferencia: 69.34 en vez de 59.34
+2024-08-28,volumen,45.9,46.6,curva nivel-volumen,el nivel sigue a los vecinos y el volumen no
+2024-09-18,nivel,67.01,67.11,curva nivel-volumen,un solo digito de diferencia: 67.11 en vez de 67.01
+2024-10-10,nivel,66.56,66.53,curva nivel-volumen,un solo digito de diferencia: 66.53 en vez de 66.56
+2024-10-14,nivel,64.4,66.4,curva nivel-volumen,un solo digito de diferencia: 66.40 en vez de 64.40
+2024-10-15,nivel,66.5,66.54,curva nivel-volumen,un solo digito de diferencia: 66.54 en vez de 66.50
+2024-11-10,nivel,67.12,67.02,curva nivel-volumen,un solo digito de diferencia: 67.02 en vez de 67.12
+2024-11-11,nivel,67.12,67.02,curva nivel-volumen,un solo digito de diferencia: 67.02 en vez de 67.12
+2024-11-12,nivel,67.12,67.02,curva nivel-volumen,un solo digito de diferencia: 67.02 en vez de 67.12
+2024-11-20,nivel,66.57,67.57,curva nivel-volumen,un solo digito de diferencia: 67.57 en vez de 66.57
+2024-12-01,nivel,67.49,67.39,curva nivel-volumen,un solo digito de diferencia: 67.39 en vez de 67.49
+2024-12-02,nivel,67.49,67.39,curva nivel-volumen,un solo digito de diferencia: 67.39 en vez de 67.49
+2024-12-06,nivel,67.49,67.39,curva nivel-volumen,un solo digito de diferencia: 67.39 en vez de 67.49
+2025-01-12,nivel,66.55,66.52,curva nivel-volumen,un solo digito de diferencia: 66.52 en vez de 66.55
+2025-03-17,nivel,63.83,63.83,correccion manual,revierte la correccion automatica (63.63): el nivel del portal 63.83 sigue la bajada pareja; lo que falla es el volumen
+2025-03-17,volumen,29.39,29.39,correccion manual,63.83 m en la curva; el portal traia 28.62
+2025-03-18,volumen,29.253,29.253,correccion manual,63.78 m en la curva; el portal traia 28.30
+2025-03-19,volumen,28.05,29.05,curva nivel-volumen,un solo digito de diferencia: 29.050 en vez de 28.050
+2025-09-28,volumen,12.6,12.1,curva nivel-volumen,un solo digito de diferencia: 12.100 en vez de 12.600
+2025-10-25,volumen,40.2,40.7,curva nivel-volumen,un solo digito de diferencia: 40.700 en vez de 40.200
+2025-10-28,hora,07:00:00,07:00:00,correccion manual,"se usa la lectura de 07:00, la mas cercana a las 08:00"
+2025-10-28,nivel,66.58,66.58,correccion manual,lectura de las 07:00 (la elegida traia 66.56)
+2025-10-28,volumen,41.7,41.7,correccion manual,lectura de las 07:00 (la elegida traia 41.65)
+2025-10-28,entrega,0.013,0.013,correccion manual,lectura de las 07:00 (la elegida traia 0)
+2026-11-14,volumen,142.1,142.1,correccion manual,el volumen 140.4 no cae en la curva (seria 77.61 m); 77.72 m es 142.10 y sigue la subida hasta 142.4 el 15/11

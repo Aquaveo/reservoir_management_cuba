@@ -1,0 +1,54 @@
+{% extends "reservoir_management_cuba/base.html" %}
+{% load static %}
+
+{% block content_dependent_styles %}
+  {{ block.super }}
+  <link href="{% static 'reservoir_management_cuba/vendor/leaflet/leaflet.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block app_content %}
+<div class="pc app">
+  <div class="cabeza">
+    <h1>Embalses de Cuba</h1>
+    <p class="sub">Último dato del portal SGIA y nivel pronosticado a 14 días (versión corregida de sesgo y condiciones iniciales, salidas por persistencia).</p>
+  </div>
+  <div class="portada">
+    <div id="mapa" class="mapa" role="region" aria-label="Mapa de los embalses"></div>
+    <section class="lista">
+      <h2>Resumen por embalse</h2>
+      <div class="tabla-env">
+        <table class="resumen-embalses">
+          <thead>
+            <tr><th scope="col">Embalse</th><th scope="col">Último dato</th><th scope="col" class="num">Nivel (m)</th>
+                <th scope="col" class="num">% del autorizado</th><th scope="col" class="num">En 14 días (m)</th></tr>
+          </thead>
+          <tbody>
+          {% for f in filas %}
+            <tr>
+              <th scope="row"><a href="{{ f.url }}">{{ f.nombre }}</a><span class="prov">{{ f.provincia }}</span></th>
+              {% if f.hay %}
+                <td>{{ f.f0 }}{% if f.atraso %} <span class="marca-aviso" title="Ver avisos en la página del embalse">aviso</span>{% endif %}</td>
+                <td class="num">{{ f.nivel0|floatformat:2 }}</td>
+                <td class="num">{% if f.pct is not None %}{{ f.pct|floatformat:0 }}%{% else %}–{% endif %}</td>
+                <td class="num">{{ f.nivel_fin|floatformat:2 }}
+                  <span class="cambio {% if f.cambio > 0.005 %}sube{% elif f.cambio < -0.005 %}baja{% endif %}">{% if f.cambio > 0 %}+{% endif %}{{ f.cambio|floatformat:2 }}</span>
+                  {% if f.vierten %}<span class="marca-vierte" title="Miembros del ensamble que vierten">vierte ({{ f.vierten }})</span>{% endif %}</td>
+              {% else %}
+                <td colspan="4" class="sin-datos">Sin pronóstico todavía: falta correr <code>actualizar_embalses.py</code></td>
+              {% endif %}
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+  {{ mapa|json_script:"mapa-datos" }}
+</div>
+{% endblock %}
+
+{% block scripts %}
+  {{ block.super }}
+  <script src="{% static 'reservoir_management_cuba/vendor/leaflet/leaflet.js' %}"></script>
+  <script src="{% static 'reservoir_management_cuba/js/mapa.js' %}"></script>
+{% endblock %}

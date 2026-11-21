@@ -1,0 +1,285 @@
+{
+  "_descripcion": "Fichas de los embalses para pronosticar.py. Copiadas de la celda de configuracion de cada Colab (17-11-2026). ficha: valores del portal SGIA. tramos: river_id de GEOGLOWS (Embalses.shp, campo Rio). vertedero: null = compuertas (techo en vmax o volumenautorizado); {cresta, desde} = aliviadero libre, ley ajustada con los datos desde esa fecha; {cresta, tabla} = curva de gasto oficial (CSV con columnas nivel, gasto_m3s). vmax: techo duro en hm3 cuando hay compuertas (null = volumenautorizado). nombre, provincia, lat y lon: del archivo Embalses.csv (para el mapa).",
+  "general": {
+    "zona": "America/Havana",
+    "hora_lectura": 8,
+    "ventana_ar": 30,
+    "dias_previos": 7,
+    "evaporacion_mm": 0.0
+  },
+  "embalses": {
+    "Alacranes": {
+      "nombre": "Alacranes",
+      "provincia": "Villa Clara",
+      "ide": 37,
+      "lat": 22.717173,
+      "lon": -80.170739,
+      "ficha": {
+        "nm": 23.0,
+        "volumennm": 14.0,
+        "nan": 32.32,
+        "nam": 36.0,
+        "volumennam": 680.0,
+        "areanam": 11400.0,
+        "cotacorona": 38.5,
+        "volumenautorizado": 300.0,
+        "tipoaliviadero": 31.0
+      },
+      "tramos": [780023569, 780032015, 780033552, 780023185, 780023953, 780024337, 780024721, 780026642, 780031247, 780031631, 780033168, 780026258, 780041616, 780044306, 780058130, 780052754, 780065811],
+      "vertedero": {"cresta": 31.82, "desde": "2016-01-01"},
+      "vmax": null
+    },
+    "Aviles": {
+      "nombre": "Aviles",
+      "provincia": "Cienfuegos",
+      "ide": 117,
+      "lat": 22.178789,
+      "lon": -80.157607,
+      "ficha": {
+        "nm": 68,
+        "volumennm": 68,
+        "nan": 77,
+        "nam": 81.1,
+        "volumennam": 285,
+        "areanam": 2430,
+        "cotacorona": 83,
+        "volumenautorizado": 190,
+        "tipoaliviadero": 42
+      },
+      "tramos": [780016291, 780017442, 780017826, 780023201, 780023585, 780050850],
+      "vertedero": {"cresta": 76.97, "desde": "2013-01-01"},
+      "vmax": null
+    },
+    "Bueycito": {
+      "nombre": "Bueycito",
+      "provincia": "Granma",
+      "ide": 69,
+      "lat": 20.203113,
+      "lon": -76.748025,
+      "ficha": {
+        "nm": 87.6,
+        "volumennm": 14,
+        "nan": 106.2,
+        "nam": 109.1,
+        "volumennam": 197,
+        "areanam": 1330,
+        "cotacorona": 111.85,
+        "volumenautorizado": 159,
+        "tipoaliviadero": 9
+      },
+      "tramos": [780005216, 780006753, 780040929],
+      "vertedero": null,
+      "vmax": null
+    },
+    "Carlos Manuel de Cespedes": {
+      "nombre": "Carlos Manuel de Cespedes",
+      "provincia": "Santiago de Cuba",
+      "ide": 64,
+      "lat": 20.245882,
+      "lon": -76.243238,
+      "ficha": {
+        "nm": 97,
+        "volumennm": 30,
+        "nan": 117.5,
+        "nam": 121.33,
+        "volumennam": 310,
+        "areanam": 1800,
+        "cotacorona": 124.5,
+        "volumenautorizado": 243,
+        "tipoaliviadero": 9
+      },
+      "tramos": [780008670, 780008672, 780009057, 780009825, 780027103, 780042081, 780051681],
+      "vertedero": {"cresta": 117.5, "desde": "2013-01-01"},
+      "vmax": null
+    },
+    "Cauto El Paso": {
+      "nombre": "Cauto El Paso",
+      "provincia": "Granma",
+      "ide": 70,
+      "lat": 20.55088,
+      "lon": -76.672494,
+      "ficha": {
+        "nm": 10.0,
+        "volumennm": 9.0,
+        "nan": 26.0,
+        "nam": 27.5,
+        "volumennam": 450.0,
+        "areanam": 8750.0,
+        "cotacorona": 30.5,
+        "volumenautorizado": 87.378,
+        "tipoaliviadero": 69.0
+      },
+      "tramos": [780004053, 780004437, 780002904, 780029014, 780039767, 780034773],
+      "vertedero": null,
+      "vmax": 450.0
+    },
+    "Hanabanilla": {
+      "nombre": "Hanabanilla",
+      "provincia": "Villa Clara",
+      "ide": 36,
+      "lat": 22.032856,
+      "lon": -80.016892,
+      "ficha": {
+        "nm": 340.0,
+        "volumennm": 14.0,
+        "nan": 364.0,
+        "nam": 366.6,
+        "volumennam": 340.7,
+        "areanam": 1952.0,
+        "cotacorona": 368.5,
+        "volumenautorizado": 286.0,
+        "tipoaliviadero": 81.0
+      },
+      "tramos": [780008231, 780012073, 780031271, 780035879, 780047014],
+      "vertedero": {"cresta": 364.0, "desde": "2013-01-01"},
+      "vmax": null
+    },
+    "Jimaguayu": {
+      "nombre": "Jimaguayu",
+      "provincia": "Camaguey",
+      "ide": 163,
+      "lat": 21.230958,
+      "lon": -78.008211,
+      "ficha": {
+        "nm": 54,
+        "volumennm": 3,
+        "nan": 67.7,
+        "nam": 70.1,
+        "volumennam": 310,
+        "areanam": 4640,
+        "cotacorona": 73,
+        "volumenautorizado": 200,
+        "tipoaliviadero": 9
+      },
+      "tramos": [780002879, 780003263, 780004032, 780022079, 780024000, 780026302],
+      "vertedero": null,
+      "vmax": null
+    },
+    "La Yaya _GTM_": {
+      "nombre": "La Yaya (GTM)",
+      "provincia": "Guantanamo",
+      "ide": 220,
+      "lat": 20.12143,
+      "lon": -75.389219,
+      "ficha": {
+        "nm": 58.5,
+        "volumennm": 14,
+        "nan": 79.1,
+        "nam": 82.7,
+        "volumennam": 210,
+        "areanam": 1540,
+        "cotacorona": 85.7,
+        "volumenautorizado": 160,
+        "tipoaliviadero": 9
+      },
+      "tramos": [780017122, 780017506, 780024804, 780039395],
+      "vertedero": {"cresta": 79.05, "desde": "2013-01-01"},
+      "vmax": null
+    },
+    "Mamposton": {
+      "nombre": "Mamposton",
+      "provincia": "Mayabeque",
+      "ide": 99,
+      "lat": 22.96981,
+      "lon": -82.061462,
+      "ficha": {
+        "nm": 114,
+        "volumennm": 5.2,
+        "nan": 132.64,
+        "nam": 134.43,
+        "volumennam": 187.64,
+        "areanam": 1846,
+        "cotacorona": 137,
+        "volumenautorizado": 153.8,
+        "tipoaliviadero": 9
+      },
+      "tramos": [780009736, 780009737, 780010120, 780010121],
+      "vertedero": null,
+      "vmax": null
+    },
+    "Mayari": {
+      "nombre": "Mayari",
+      "provincia": "Holguin",
+      "ide": 217,
+      "lat": 20.553977,
+      "lon": -75.65479,
+      "ficha": {
+        "nm": 35.0,
+        "volumennm": 4.55,
+        "nan": 85.0,
+        "nam": 95.24,
+        "volumennam": 535.75,
+        "areanam": 2112.0,
+        "cotacorona": 96.2,
+        "volumenautorizado": 353.5,
+        "tipoaliviadero": 68.0
+      },
+      "tramos": [780013269, 780013653, 780017108, 780011350, 780011734, 780012118, 780041303],
+      "vertedero": {"cresta": 85.0, "desde": "2020-01-01"},
+      "vmax": null
+    },
+    "Porvenir": {
+      "nombre": "Porvenir",
+      "provincia": "Camaguey",
+      "ide": 162,
+      "lat": 21.698282,
+      "lon": -78.101783,
+      "ficha": {
+        "nm": 44.3,
+        "volumennm": 3,
+        "nan": 53.66,
+        "nam": 56.18,
+        "volumennam": 297.5,
+        "areanam": 5820,
+        "cotacorona": 58.45,
+        "volumenautorizado": 171.5,
+        "tipoaliviadero": 13
+      },
+      "tramos": [780018610, 780022832, 780027441, 780030900, 780036272, 780038195, 780045874],
+      "vertedero": null,
+      "vmax": null
+    },
+    "Protesta de Baragua": {
+      "nombre": "Protesta de Baragua",
+      "provincia": "Santiago de Cuba",
+      "ide": 195,
+      "lat": 20.376524,
+      "lon": -75.955045,
+      "ficha": {
+        "nm": 84.5,
+        "volumennm": 41,
+        "nan": 97,
+        "nam": 101,
+        "volumennam": 412,
+        "areanam": 4300,
+        "cotacorona": 106,
+        "volumenautorizado": 250,
+        "tipoaliviadero": 48
+      },
+      "tramos": [780007897, 780010202, 780010586, 780010972, 780011356, 780011742, 780012891, 780013277, 780013661, 780014045, 780026716, 780035163, 780053214, 780057054],
+      "vertedero": {"cresta": 97.0, "desde": "2013-01-01"},
+      "vmax": null
+    },
+    "Zaza": {
+      "nombre": "Zaza",
+      "provincia": "Sancti Spiritus",
+      "ide": 108,
+      "lat": 21.868444,
+      "lon": -79.371323,
+      "ficha": {
+        "nm": 23.5,
+        "volumennm": 90.0,
+        "nan": 39.0,
+        "nam": 40.55,
+        "volumennam": 1180.0,
+        "areanam": 12600.0,
+        "cotacorona": 42.5,
+        "volumenautorizado": 920.0,
+        "tipoaliviadero": 35.0
+      },
+      "tramos": [780012075, 780012459, 780012843, 780013227, 780013610, 780013994, 780013226, 780014381, 780049322, 780042409, 780051626],
+      "vertedero": null,
+      "vmax": null
+    }
+  }
+}

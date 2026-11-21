@@ -1,0 +1,49 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-08-02,nivel,63.43,62.43,curva nivel-volumen,un solo digito de diferencia: 62.43 en vez de 63.43
+2014-01-01,registro completo,nivel 66.97 / volumen 178.424 / entrega 0.623,descartado,fecha corrompida,"el par cae en la curva pero es incompatible con los dos dias vecinos (65.40 y 65.38), que entre si son continuos"
+2014-01-16,entrega,0.231293,0.231293,correccion manual,entrega de la serie de 08:00 del 15/01 (la lectura ajena traia 0.513)
+2014-01-16,nivel,65.35,65.35,correccion manual,interpolado entre 65.36 (15/01) y 65.33 (17/01) de la serie de 08:00
+2014-01-16,hora,08:00:00,08:00:00,correccion manual,solo hay la lectura ajena de 07:51 (66.27); se reemplaza por la serie propia interpolada
+2014-01-16,volumen,130.905,130.905,correccion manual,65.35 m en la curva
+2014-01-19,nivel,65.32,65.32,correccion manual,interpolado entre 65.33 (17/01) y 65.25 (31/01) de la serie de 08:00
+2014-01-19,entrega,0.01728,0.01728,correccion manual,valor habitual de la serie de 08:00 en enero 2014 (la lectura ajena traia 0.513); evita que el relleno arrastre una entrega alta 12 dias
+2014-01-19,volumen,130.086,130.086,correccion manual,65.32 m en la curva
+2014-01-19,hora,08:00:00,08:00:00,correccion manual,solo hay la lectura ajena de 20:38 (66.25); se reemplaza por la serie propia interpolada
+2017-02-13,nivel,61.61,61.41,curva nivel-volumen,un solo digito de diferencia: 61.41 en vez de 61.61
+2017-03-12,volumen,36.007,37.007,curva nivel-volumen,un solo digito de diferencia: 37.007 en vez de 36.007
+2018-05-28,nivel,67.75,67.7,curva nivel-volumen,un solo digito de diferencia: 67.70 en vez de 67.75
+2019-05-19,entrega,69.0,0.69,potencia de diez,122 veces la entrega habitual (p75 0.568); /100 queda en 0.690 (entrega garantizada diaria de la ficha: 0.373)
+2019-08-05,nivel,62.32,66.32,curva nivel-volumen,un solo digito de diferencia: 66.32 en vez de 62.32
+2019-10-10,nivel,66.31,67.31,curva nivel-volumen,un solo digito de diferencia: 67.31 en vez de 66.31
+2019-11-08,volumen,191.153,191.153,correccion manual,el volumen 191.753 no cae en la curva; 67.37 m es 191.153 (igual que el 07 y 09/11)
+2019-11-11,nivel,67.43,67.43,correccion manual,el volumen 193.067 es 67.43 m (igual que el 12/11); 67.47 rompe la secuencia 67.40 / ? / 67.43
+2019-11-12,nivel,63.43,67.43,curva nivel-volumen,un solo digito de diferencia: 67.43 en vez de 63.43
+2019-12-16,nivel,67.34,67.24,curva nivel-volumen,un solo digito de diferencia: 67.24 en vez de 67.34
+2019-12-19,nivel,67.21,67.21,correccion manual,el volumen 186.049 es 67.21 m y encaja entre 67.22 y 67.20; 67.24 no
+2020-01-18,volumen,180.945,180.945,correccion manual,el volumen 180.495 no cae en la curva; 67.05 m es 180.945 (igual que el 17 y 19/01)
+2020-10-03,nivel,61.12,61.12,correccion manual,lectura de las 07:35 (la elegida traia 61.25)
+2020-10-03,volumen,46.984,46.984,correccion manual,lectura de las 07:35 (la elegida traia 48.7)
+2020-10-03,entrega,0.147,0.147,correccion manual,lectura de las 07:35 (la elegida traia 0.148)
+2020-10-03,hora,07:35:00,07:35:00,correccion manual,lectura de las 07:35
+2020-10-22,nivel,60.6,61.6,curva nivel-volumen,un solo digito de diferencia: 61.60 en vez de 60.60
+2020-11-07,nivel,61.99,61.99,correccion manual,lectura de las 07:15 (la elegida traia 61.97)
+2020-11-07,hora,07:15:00,07:15:00,correccion manual,lectura de las 07:15
+2020-11-07,volumen,58.86,58.86,correccion manual,lectura de las 07:15 (la elegida traia 58.58)
+2021-07-03,entrega,0.017,0.017,correccion manual,lectura de las 06:41 (la elegida traia 0)
+2021-07-03,hora,06:41:00,06:41:00,correccion manual,lectura de las 06:41
+2021-07-22,nivel,61.05,61.8,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2021-11-01,nivel,61.97,61.91,curva nivel-volumen,un solo digito de diferencia: 61.91 en vez de 61.97
+2022-05-05,nivel,58.8,58.89,curva nivel-volumen,un solo digito de diferencia: 58.89 en vez de 58.80
+2022-05-15,nivel,58.49,58.4,curva nivel-volumen,un solo digito de diferencia: 58.40 en vez de 58.49
+2022-06-05,hora,07:00:00,07:00:00,correccion manual,lectura de las 07:00
+2022-06-05,nivel,60.76,60.76,correccion manual,lectura de las 07:00 (la elegida traia 60.75)
+2022-06-05,volumen,42.784,42.784,correccion manual,lectura de las 07:00 (la elegida traia 42.675)
+2023-06-10,hora,12:00:00,12:00:00,correccion manual,lectura de las 12:00
+2023-06-10,volumen,170.712,170.712,correccion manual,lectura de las 12:00 (la elegida traia 147.15)
+2023-06-10,nivel,66.72,66.72,correccion manual,lectura de las 12:00 (la elegida traia 65.95)
+2024-04-29,nivel,64.12,64.32,curva nivel-volumen,un solo digito de diferencia: 64.32 en vez de 64.12
+2024-04-30,nivel,64.07,64.17,curva nivel-volumen,un solo digito de diferencia: 64.17 en vez de 64.07
+2024-10-02,nivel,62.16,62.36,curva nivel-volumen,un solo digito de diferencia: 62.36 en vez de 62.16
+2024-10-04,nivel,62.68,62.58,curva nivel-volumen,un solo digito de diferencia: 62.58 en vez de 62.68
+2024-10-05,nivel,62.68,62.58,curva nivel-volumen,un solo digito de diferencia: 62.58 en vez de 62.68
+2026-03-06,nivel,61.4,61.45,curva nivel-volumen,un solo digito de diferencia: 61.45 en vez de 61.40

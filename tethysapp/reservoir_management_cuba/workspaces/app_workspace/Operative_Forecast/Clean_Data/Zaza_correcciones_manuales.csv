@@ -1,0 +1,17 @@
+fecha,campo,valor,motivo
+2013-06-12,nivel,33.09,el volumen 481.525 es 33.09 en la curva (igual que el 13/06); 33.04 no encaja entre 33.11 y 33.09
+# 2018-05-28 a 06-02 (tormenta Alberto): crecida real, pico 40.23 m / 1148.58 hm3 el 29/05 (NAM 40.55). En estos dias la salida por compuertas se anoto en desembalse (hm3/dia)
+2018-05-28,volumen,944.0,un digito: 934 en vez de 944; sobre la cresta el embalse gana ~100 hm3/m (938 a 38.18 m, 949 a 38.29 m), asi que 38.24 m son ~944
+2018-06-01,vertimiento,0,el vertimiento 942.342 m3/s es la misma salida que el desembalse del dia (942.342 x 0.0864 = 81.4 hm3 ~ desembalse 81): estaba contada dos veces
+2018-06-02,vertimiento,0,942.342 es copia del 01/06 y repite la salida ya anotada en desembalse (55 hm3/dia); estaba contada dos veces
+2019-05-05,volumen,280.42,el volumen 270.06 no cae en la curva; el nivel 29.65 es el mismo de los dias 03 y 04 (280.42)
+2022-09-22,volumen,523.575,un digito: 525.575 en vez de 523.575; 33.67 m en la curva
+# 2022-09-28: el limpiador tomo la lectura de 00:00; se usa la de 06:42
+2022-09-28,hora,06:42:00,se usa la lectura de 06:42, la mas cercana a las 08:00
+2022-09-28,nivel,33.84,lectura de las 06:42 (la elegida traia 33.76)
+2022-09-28,volumen,535.900,lectura de las 06:42 (la elegida traia 530.100)
+2023-04-30,nivel,28.41,el volumen 223.45 es 28.41 en la curva y sigue la bajada (226.15 el 29/04); 28.10 no encaja con 28.47 ni con 28.62
+# 2023-12-17: el limpiador tomo la lectura de 00:00; se usa la de 05:48
+2023-12-17,hora,05:48:00,se usa la lectura de 05:48, la mas cercana a las 08:00
+2023-12-17,nivel,30.09,lectura de las 05:48 (la elegida traia 30.07)
+2023-12-17,volumen,301.588,lectura de las 05:48 (la elegida traia 300.524)

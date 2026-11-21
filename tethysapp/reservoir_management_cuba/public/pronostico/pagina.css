@@ -1,0 +1,61 @@
+/* pagina.css - estilos de la pagina de pronostico. Todo va bajo .pc para no
+   chocar con la pagina que la contenga (la app Tethys). */
+.pc {
+    --tinta: #1d2733; --tenue: #5b6b7a; --borde: #d7dee5; --fondo: #f5f7f9;
+    --acento: #0b6e8f; --acento-claro: #e3f1f6; --aviso: #9a5b00; --aviso-fondo: #fff4e0;
+  }
+  .pc, .pc * { box-sizing: border-box; }
+  .pc ::selection { background: #bfe0eb; color: var(--tinta); }
+  .pc :focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+  .pc input, .pc select { accent-color: var(--acento); }
+  .pc { margin: 0; min-height: 100vh; font-family: "Segoe UI", Calibri, Arial, sans-serif; color: var(--tinta); background: var(--fondo); }
+  .pc header { background: #fff; border-bottom: 1px solid var(--borde); padding: 16px 24px; }
+  .pc h1 { margin: 0 0 4px; font-size: 22px; }
+  .pc .sub { color: var(--tenue); font-size: 14px; }
+  .pc main { padding: 16px 24px 40px; max-width: 1400px; margin: 0 auto; }
+  .pc section { background: #fff; border: 1px solid var(--borde); border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; }
+  .pc h2 { font-size: 15px; margin: 0 0 10px; }
+  .pc .datos { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 6px 24px; font-size: 13.5px; }
+  .pc .datos b { font-weight: 600; }
+  .pc .avisos { margin-top: 10px; }
+  .pc .avisos div { background: var(--aviso-fondo); color: var(--aviso); border-radius: 6px; padding: 6px 10px; font-size: 13px; margin-top: 6px; }
+  .pc .pestanas { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .pc .pestanas button { border: 1px solid var(--borde); background: #fff; border-radius: 6px; padding: 8px 14px; font-size: 13.5px; cursor: pointer; color: var(--tinta); }
+  .pc .pestanas button.activa { background: var(--acento); color: #fff; border-color: var(--acento); }
+  .pc .controles { display: flex; flex-wrap: wrap; gap: 14px 28px; align-items: center; font-size: 13.5px; margin-bottom: 10px; }
+  .pc .grupo { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .pc .grupo > span { color: var(--tenue); }
+  .pc .seg { display: inline-flex; border: 1px solid var(--borde); border-radius: 6px; overflow: hidden; }
+  .pc .seg button { border: 0; background: #fff; padding: 6px 11px; font-size: 13px; cursor: pointer; color: var(--tinta); }
+  .pc .seg button + button { border-left: 1px solid var(--borde); }
+  .pc .seg button.activa { background: var(--acento-claro); color: var(--acento); font-weight: 600; }
+  .pc select, .pc input[type=number] { font: inherit; font-size: 13px; padding: 4px 6px; border: 1px solid var(--borde); border-radius: 5px; }
+  .pc button.accion { border: 1px solid var(--acento); background: #fff; color: var(--acento); border-radius: 6px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
+  .pc button.principal { background: var(--acento); color: #fff; border: 0; border-radius: 6px; padding: 10px 18px; font-size: 14px; cursor: pointer; }
+  .pc .tabla-env { overflow-x: auto; }
+  .pc table.salidas { border-collapse: collapse; font-size: 12.5px; }
+  .pc table.salidas th, .pc table.salidas td { padding: 3px 3px; text-align: center; white-space: nowrap; }
+  .pc table.salidas th:first-child, .pc table.salidas td:first-child { text-align: left; padding-right: 10px; position: sticky; left: 0; background: #fff; }
+  .pc table.salidas th { color: var(--tenue); font-weight: 600; }
+  .pc table.salidas input { width: 66px; text-align: right; font-size: 12.5px; padding: 3px 4px; }
+  .pc table.salidas input:disabled { background: #f0f3f6; color: #44525f; border-color: #e3e8ec; }
+  .pc table.salidas input { font-variant-numeric: tabular-nums; }
+  .pc table.salidas input.editado:not(:disabled) { background: #fff8e6; border-color: #e0b85a; }
+  .pc table.salidas input.recortado { border-color: #d64545; box-shadow: inset 0 0 0 1px #d64545; }
+  .pc .nota { font-size: 12px; color: var(--tenue); margin-top: 8px; line-height: 1.45; max-width: 62ch; }
+  .pc .resumen { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px 24px;
+             margin: 14px 0 6px; padding: 10px 0; border-top: 1px solid var(--borde); border-bottom: 1px solid var(--borde); }
+  .pc .resumen dt { font-size: 12px; color: var(--tenue); margin-bottom: 2px; }
+  .pc .resumen dd { margin: 0; font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .pc .resumen dd small { font-weight: 400; color: var(--tenue); font-size: 12px; }
+  .pc .titulo-grafico { font-size: 14px; font-weight: 600; margin: 14px 0 0; }
+  .pc .estado { font-size: 13px; color: var(--acento); margin-left: 12px; }
+  .pc .visualmente-oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  @media (max-width: 600px) {
+    .pc header, .pc main { padding-left: 12px; padding-right: 12px; }
+    .pc section { padding: 12px; }
+    .pc .pestanas button { flex: 1 1 100%; text-align: left; }
+    .pc #grafico { height: 760px; }
+  }
+  .pc #grafico { width: 100%; height: 860px; }
+  .pc .pie { font-size: 12px; color: var(--tenue); }

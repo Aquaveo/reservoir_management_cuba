@@ -1,0 +1,34 @@
+fecha,campo,valor,motivo
+2013-03-15,nivel,113.22,el volumen 179.152 es 113.22 en la curva y baja con los vecinos (113.31 / 113.20); 113.32 no encaja
+2013-11-01,volumen,117.322,un digito: 116.322 en vez de 117.322; 108.82 m en la curva
+2014-05-25,nivel,107.79,un digito: 107.69 en vez de 107.79; el volumen 106.693 es 107.79 y los vecinos estan en 107.78
+2016-08-24,volumen,112.472,un digito: 111.472 en vez de 112.472; 108.35 m en la curva
+2016-08-25,volumen,112.266,un digito: 111.266 en vez de 112.266; 108.33 m en la curva
+2016-10-05,nivel,107.96,el volumen 108.447 es 107.96 en la curva y encaja entre 107.94 y 107.97; 107.90 no
+2019-09-06,volumen,162.961,el volumen 162.383 no cae en la curva y rompe la bajada; 112.17 m es 162.961
+2019-12-12,volumen,181.157,el volumen 180.849 (113.33) repite el del dia siguiente; 113.35 m es 181.157
+2019-12-14,volumen,180.540,un digito: 180.140 en vez de 180.540; 113.31 m en la curva
+2020-04-07,nivel,112.86,el volumen 173.601 es 112.86 y encaja entre 112.88 y 112.83; 112.78 no
+# 2020-08-24 (tormenta Laura): la lectura de 00:00 (112.92) esta fuera de orden (encaja como la de 00:00 del 25); se usa la de 14:00
+2020-08-24,hora,14:00:00,la lectura de 00:00 (112.92) cae despues de la de 22:00 (112.86) en la secuencia; se usa la primera lectura valida del dia
+2020-08-24,nivel,112.27,lectura de las 14:00
+2020-08-24,volumen,164.503,lectura de las 14:00
+2020-08-24,entrega,0,lectura de las 14:00
+2020-09-12,nivel,113.14,un digito: 113.04 en vez de 113.14; el volumen 177.919 es 113.14
+2020-09-13,nivel,113.12,el volumen 177.610 es 113.12 y sigue la bajada (177.919 / 177.610 / 177.302); 113.14 no
+2020-10-19,nivel,112.24,el volumen 164.041 es 112.24 y encaja entre 112.16 y 112.28; 112.08 no
+2020-12-17,volumen,240.670,el volumen 240.000 (redondo) no cae en la curva; 117.34 m es 240.670
+2021-03-17,volumen,207.619,un digito: 207.019 en vez de 207.619; 115.07 m en la curva
+2021-04-06,nivel,114.68,un digito: 114.58 en vez de 114.68; el volumen 201.666 es 114.68
+2024-02-03,volumen,230.624,digitos invertidos: 230.264 en vez de 230.624; 116.65 m (igual que el 04 y 05/02)
+2024-09-12,nivel,114.26,el volumen 195.189 es 114.26 y encaja entre 114.24 y 114.25; 114.29 no
+# 2025-10-31 (Melissa): la lectura 117.50 / 243.000 (justo el NAN) es un valor de relleno; el vertimiento 192.134 del mismo parte corresponde a 118.13 m por la ecuacion del vertedero (384.23 x (h-117.50)^1.5), y el par 118.13 / 253.534 existe en el portal
+2025-10-31,nivel,118.13,117.50 / 243.000 es relleno; el vertimiento 192.134 del parte da 118.13 m con la ecuacion del vertedero
+2025-10-31,volumen,253.534,118.13 m en la curva (el par existe en el portal)
+2025-11-03,volumen,248.350,un digito: 248.850 en vez de 248.350; 117.82 m en la curva
+2025-11-04,volumen,247.180,un digito: 248.180 en vez de 247.180; 117.75 m en la curva
+2026-03-16,desembalse,0,el 0.384 esta en la columna equivocada: es el vertimiento de 117.51 m (vertedero) y al dia siguiente aparece en vertimiento
+2026-03-16,vertimiento,0.384,vertimiento de 117.51 m por la ecuacion del vertedero; el portal lo puso en desembalse
+2026-05-24,nivel,117.60,el vertimiento 12.151 del parte es el de 117.60 m y la secuencia es 117.61 / 117.63 / ? / 117.59; 117.70 no encaja
+2026-05-24,volumen,244.672,117.60 m en la curva
+2026-07-11,vertimiento,1.997,un digito: 14.997 en vez de 1.997; con 117.53 m el vertedero da 2.0 (igual que el 10 y el 12/07)

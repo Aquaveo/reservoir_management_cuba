@@ -1,0 +1,57 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-05-20,nivel,359.59,359.59,correccion manual,el volumen 200.215 es 359.59 en la curva y encaja entre 199.105 y 200.400; 359.50 no
+2013-07-05,nivel,359.2,359.2,correccion manual,el volumen 193.000 es 359.20 en la curva (vecinos 359.19); 359.12 no encaja
+2013-07-16,nivel,359.01,359.01,correccion manual,el volumen 189.485 es 359.01 en la curva y encaja entre 359.03 y 358.98; 359.05 no
+2014-02-05,nivel,359.78,358.78,curva nivel-volumen,un solo digito de diferencia: 358.78 en vez de 359.78
+2014-05-03,vertimiento,0.314,0.0,vertimiento bajo la cresta,"vierte 0.314 m3/s con el nivel en 356.93 m, por debajo de la cresta (umbral 363.50 m)"
+2014-07-01,nivel,356.0,356.99,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2014-08-07,nivel,357.06,357.16,curva nivel-volumen,un solo digito de diferencia: 357.16 en vez de 357.06
+2014-10-14,nivel,356.55,356.35,curva nivel-volumen,un solo digito de diferencia: 356.35 en vez de 356.55
+2015-07-23,nivel,351.69,351.96,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2015-11-09,nivel,353.4,353.84,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
+2017-09-10,nivel,355.41,353.41,curva nivel-volumen,un solo digito de diferencia: 353.41 en vez de 355.41
+2018-05-30,volumen,304.645,304.645,correccion manual,"364.90 m interpolado entre 364.60 (298.420) y 365.33 (313.564), 20.7 hm3/m"
+2018-05-30,nivel,364.9,364.9,correccion manual,364.00 / 286.000 es relleno; el vertimiento 163.918 corresponde a ~364.90 m (entre 365.33 con 283.8 y 364.60 con 88.5)
+2018-06-12,nivel,362.12,364.12,curva nivel-volumen,un solo digito de diferencia: 364.12 en vez de 362.12
+2018-06-22,nivel,361.08,364.08,curva nivel-volumen,un solo digito de diferencia: 364.08 en vez de 361.08
+2018-12-24,nivel,362.06,362.06,correccion manual,digitos invertidos (decia 362.60); el volumen 247.37 cae exacto sobre la curva en 362.06 y 362.60 daria 257.90
+2019-06-13,nivel,359.29,359.29,correccion manual,se anoto solo la parte entera (decia 359); el par 359.29/194.665 cae exacto sobre la curva y es el de los dias 8 al 10 de junio
+2019-06-13,volumen,194.665,194.665,correccion manual,se anoto solo la parte entera (decia 194); 359.00 daria 189.30 hm3 y 194.0 daria 359.25 m: ninguno encaja con los vecinos
+2019-06-29,nivel,359.91,358.91,curva nivel-volumen,un solo digito de diferencia: 358.91 en vez de 359.91
+2019-07-28,desembalse,0.6912,0.6912,correccion manual,el portal lo dio en m3/s (8) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 8 x 0.0864
+2019-08-20,volumen,169.475,169.475,correccion manual,un digito: 168.475 en vez de 169.475; 357.89 m en la curva
+2019-10-02,nivel,358.58,357.58,curva nivel-volumen,un solo digito de diferencia: 357.58 en vez de 358.58
+2019-10-15,desembalse,0.432,0.432,correccion manual,el portal lo dio en m3/s (5) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 5 x 0.0864
+2019-10-29,nivel,357.38,359.38,curva nivel-volumen,un solo digito de diferencia: 359.38 en vez de 357.38
+2019-12-22,volumen,184.498,182.498,curva nivel-volumen,un solo digito de diferencia: 182.498 en vez de 184.498
+2020-08-23,volumen,119.24,119.24,correccion manual,lectura de las 07:15 (la elegida traia 119.11)
+2020-08-23,entrega,0.495,0.495,correccion manual,lectura de las 07:15 (la elegida traia 0)
+2020-08-23,nivel,354.68,354.68,correccion manual,lectura de las 07:15 (la elegida traia 354.67)
+2020-08-23,hora,07:15:00,07:15:00,correccion manual,lectura de las 07:15
+2020-11-06,volumen,156.875,156.875,correccion manual,lectura de las 07:25 (la elegida traia 157.05)
+2020-11-06,entrega,0.38,0.38,correccion manual,lectura de las 07:25 (la elegida traia 0)
+2020-11-06,nivel,357.17,357.17,correccion manual,lectura de las 07:25 (la elegida traia 357.18)
+2020-11-06,hora,07:25:00,07:25:00,correccion manual,lectura de las 07:25
+2020-11-19,nivel,359.46,359.86,curva nivel-volumen,un solo digito de diferencia: 359.86 en vez de 359.46
+2022-02-03,nivel,357.71,357.21,curva nivel-volumen,un solo digito de diferencia: 357.21 en vez de 357.71
+2022-06-03,hora,06:47:00,06:47:00,correccion manual,lectura de las 06:47
+2022-06-03,nivel,355.36,355.36,correccion manual,lectura de las 06:47 (la elegida traia 355.28)
+2022-06-03,volumen,128.548,128.548,correccion manual,lectura de las 06:47 (la elegida traia 127.404)
+2022-06-03,entrega,0.24,0.24,correccion manual,lectura de las 06:47 (la elegida traia 0)
+2022-06-04,nivel,355.61,355.61,correccion manual,lectura de las 07:00 (la elegida traia 355.52)
+2022-06-04,entrega,0.265,0.265,correccion manual,lectura de las 07:00 (la elegida traia 0)
+2022-06-04,volumen,132.123,132.123,correccion manual,lectura de las 07:00 (la elegida traia 130.836)
+2022-06-04,hora,07:00:00,07:00:00,correccion manual,lectura de las 07:00
+2022-06-05,hora,06:53:00,06:53:00,correccion manual,lectura de las 06:53
+2022-06-05,nivel,356.1,356.1,correccion manual,lectura de las 06:53 (la elegida traia 355.96)
+2022-06-05,volumen,139.32,139.32,correccion manual,lectura de las 06:53 (la elegida traia 137.128)
+2022-06-05,entrega,0.269,0.269,correccion manual,lectura de las 06:53 (la elegida traia 0)
+2022-09-25,entrega,0.673,0.673,correccion manual,lectura de las 07:02 (la elegida traia 0)
+2022-09-25,hora,07:02:00,07:02:00,correccion manual,lectura de las 07:02
+2022-09-26,entrega,0.17,0.17,correccion manual,lectura de las 06:57 (la elegida traia 0)
+2022-09-26,hora,06:57:00,06:57:00,correccion manual,lectura de las 06:57
+2024-11-05,volumen,186.615,186.615,correccion manual,lectura de las 06:48 (la elegida traia 186.257)
+2024-11-05,hora,06:48:00,06:48:00,correccion manual,lectura de las 06:48
+2024-11-05,nivel,358.85,358.85,correccion manual,lectura de las 06:48 (la elegida traia 358.83)
+2024-11-05,entrega,0.403,0.403,correccion manual,lectura de las 06:48 (la elegida traia 0)
+2026-04-02,nivel,356.26,356.26,correccion manual,el volumen 141.912 es 356.26 en la curva y encaja entre 356.28 y 356.27; 356.21 no

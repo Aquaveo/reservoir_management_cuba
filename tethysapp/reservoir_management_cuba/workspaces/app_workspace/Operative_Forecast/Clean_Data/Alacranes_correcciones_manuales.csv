@@ -1,0 +1,5 @@
+fecha,campo,valor,motivo
+2020-10-24,desembalse,0.4320,el portal lo dio en m3/s (5) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 5 x 0.0864
+2019-06-18,entrega,0.7767,un orden de magnitud: 7.767 en vez de 0.7767; la entrega de esos dias va de 0.67 a 0.83 y el valor malo daba un Qin de 82 m3/s
+2019-06-19,nivel,30.47,el volumen 218.250 cae en 30.47 en la curva (igual que el 20/06) y la serie de volumen baja pareja; 30.39 rompe la secuencia
+2022-11-08,volumen,354.765,un solo digito: 357.765 en vez de 354.765; 32.35 m en la curva es 354.765 (igual que el 09/11 y el 13/11)

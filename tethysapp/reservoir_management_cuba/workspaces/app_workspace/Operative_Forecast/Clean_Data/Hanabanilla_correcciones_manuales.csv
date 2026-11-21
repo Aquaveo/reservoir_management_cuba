@@ -1,0 +1,50 @@
+fecha,campo,valor,motivo
+2018-12-24,nivel,362.06,digitos invertidos (decia 362.60); el volumen 247.37 cae exacto sobre la curva en 362.06 y 362.60 daria 257.90
+2019-06-13,nivel,359.29,se anoto solo la parte entera (decia 359); el par 359.29/194.665 cae exacto sobre la curva y es el de los dias 8 al 10 de junio
+2019-06-13,volumen,194.665,se anoto solo la parte entera (decia 194); 359.00 daria 189.30 hm3 y 194.0 daria 359.25 m: ninguno encaja con los vecinos
+2019-07-28,desembalse,0.6912,el portal lo dio en m3/s (8) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 8 x 0.0864
+2019-10-15,desembalse,0.4320,el portal lo dio en m3/s (5) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 5 x 0.0864
+2013-05-20,nivel,359.59,el volumen 200.215 es 359.59 en la curva y encaja entre 199.105 y 200.400; 359.50 no
+2013-07-05,nivel,359.20,el volumen 193.000 es 359.20 en la curva (vecinos 359.19); 359.12 no encaja
+2013-07-16,nivel,359.01,el volumen 189.485 es 359.01 en la curva y encaja entre 359.03 y 358.98; 359.05 no
+# 2018-05-30 (tormenta Alberto): 364.00 / 286.000 es relleno (el NAN y el volumen autorizado exactos). El vertimiento 163.918 del parte cae entre el de 365.33 (283.8) y el de 364.60 (88.5): corresponde a ~364.90 m
+2018-05-30,nivel,364.90,364.00 / 286.000 es relleno; el vertimiento 163.918 corresponde a ~364.90 m (entre 365.33 con 283.8 y 364.60 con 88.5)
+2018-05-30,volumen,304.645,364.90 m interpolado entre 364.60 (298.420) y 365.33 (313.564), 20.7 hm3/m
+2019-08-20,volumen,169.475,un digito: 168.475 en vez de 169.475; 357.89 m en la curva
+2026-04-02,nivel,356.26,el volumen 141.912 es 356.26 en la curva y encaja entre 356.28 y 356.27; 356.21 no
+# 2020-08-23: el limpiador tomo la lectura de 00:00; se usa el parte de la manana (07:15)
+2020-08-23,hora,07:15:00,lectura de las 07:15
+2020-08-23,nivel,354.68,lectura de las 07:15 (la elegida traia 354.67)
+2020-08-23,volumen,119.24,lectura de las 07:15 (la elegida traia 119.11)
+2020-08-23,entrega,0.495,lectura de las 07:15 (la elegida traia 0)
+# 2020-11-06: el limpiador tomo la lectura de 04:00; se usa el parte de la manana (07:25)
+2020-11-06,hora,07:25:00,lectura de las 07:25
+2020-11-06,nivel,357.17,lectura de las 07:25 (la elegida traia 357.18)
+2020-11-06,volumen,156.875,lectura de las 07:25 (la elegida traia 157.05)
+2020-11-06,entrega,0.38,lectura de las 07:25 (la elegida traia 0)
+# 2022-06-03: el limpiador tomo la lectura de 00:00; se usa el parte de la manana (06:47)
+2022-06-03,hora,06:47:00,lectura de las 06:47
+2022-06-03,nivel,355.36,lectura de las 06:47 (la elegida traia 355.28)
+2022-06-03,volumen,128.548,lectura de las 06:47 (la elegida traia 127.404)
+2022-06-03,entrega,0.24,lectura de las 06:47 (la elegida traia 0)
+# 2022-06-04: el limpiador tomo la lectura de 00:05; se usa el parte de la manana (07:00)
+2022-06-04,hora,07:00:00,lectura de las 07:00
+2022-06-04,nivel,355.61,lectura de las 07:00 (la elegida traia 355.52)
+2022-06-04,volumen,132.123,lectura de las 07:00 (la elegida traia 130.836)
+2022-06-04,entrega,0.265,lectura de las 07:00 (la elegida traia 0)
+# 2022-06-05: el limpiador tomo la lectura de 00:00; se usa el parte de la manana (06:53)
+2022-06-05,hora,06:53:00,lectura de las 06:53
+2022-06-05,nivel,356.1,lectura de las 06:53 (la elegida traia 355.96)
+2022-06-05,volumen,139.32,lectura de las 06:53 (la elegida traia 137.128)
+2022-06-05,entrega,0.269,lectura de las 06:53 (la elegida traia 0)
+# 2022-09-25: el limpiador tomo la lectura de 00:03; se usa el parte de la manana (07:02)
+2022-09-25,hora,07:02:00,lectura de las 07:02
+2022-09-25,entrega,0.673,lectura de las 07:02 (la elegida traia 0)
+# 2022-09-26: el limpiador tomo la lectura de 00:00; se usa el parte de la manana (06:57)
+2022-09-26,hora,06:57:00,lectura de las 06:57
+2022-09-26,entrega,0.17,lectura de las 06:57 (la elegida traia 0)
+# 2024-11-05: el limpiador tomo la lectura de 00:00; se usa el parte de la manana (06:48)
+2024-11-05,hora,06:48:00,lectura de las 06:48
+2024-11-05,nivel,358.85,lectura de las 06:48 (la elegida traia 358.83)
+2024-11-05,volumen,186.615,lectura de las 06:48 (la elegida traia 186.257)
+2024-11-05,entrega,0.403,lectura de las 06:48 (la elegida traia 0)

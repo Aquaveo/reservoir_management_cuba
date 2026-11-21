@@ -1,0 +1,54 @@
+﻿fecha,campo,original,corregido,regla,motivo
+2013-01-24,nivel,25.64,25.54,curva nivel-volumen,un solo digito de diferencia: 25.54 en vez de 25.64
+2013-04-19,nivel,23.3,24.3,curva nivel-volumen,un solo digito de diferencia: 24.30 en vez de 23.30
+2013-04-25,entrega,1.382,1.382,correccion manual,persistencia del dia anterior (es lo que hace el relleno automatico); sin ella el balance da negativo y el Qin se recorta a cero
+2013-04-25,volumen,225.314,225.314,correccion manual,el que da la curva para 24.18 m
+2013-04-25,nivel,24.18,24.18,correccion manual,dia sin dato; el limpiador no lo relleno porque el 21.16 del dia 26 fingia un ritmo de 1.52 m/dia. Interpolado entre 24.20 y 24.16
+2013-04-26,nivel,24.16,24.16,correccion manual,un solo digito (decia 21.16); el volumen 224.163 cae exacto sobre la curva en 24.16 y entre los vecinos 24.20 y 24.13
+2013-07-16,volumen,193.058,193.058,correccion manual,el volumen 194.518 repite el del dia anterior (23.44 m); 23.40 m en la curva es 193.058 (igual que el 17/07)
+2013-09-03,nivel,24.97,22.97,curva nivel-volumen,un solo digito de diferencia: 22.97 en vez de 24.97
+2013-10-29,nivel,22.15,23.15,curva nivel-volumen,un solo digito de diferencia: 23.15 en vez de 22.15
+2014-08-21,volumen,160.203,160.203,correccion manual,el volumen 159.473 repite el del dia siguiente (22.48 m); 22.50 m en la curva es 160.203 (igual que el 20/08)
+2015-10-09,nivel,25.56,20.56,curva nivel-volumen,un solo digito de diferencia: 20.56 en vez de 25.56
+2016-12-06,nivel,22.02,23.02,curva nivel-volumen,un solo digito de diferencia: 23.02 en vez de 22.02
+2016-12-07,nivel,22.02,23.02,curva nivel-volumen,un solo digito de diferencia: 23.02 en vez de 22.02
+2018-08-22,desembalse,5.3376,5.3376,correccion manual,61.778 hm3/dia imposible (el volumen no bajo y al dia siguiente subio). Leido como m3/s: 61.778 x 0.0864. Mismas fechas que el desembalse anomalo de Bueycito
+2018-08-23,desembalse,5.3376,5.3376,correccion manual,igual que el 22/08: 61.778 m3/s x 0.0864
+2019-05-28,volumen,155.822,155.822,correccion manual,el volumen 155.092 repite el del dia siguiente (22.36 m); 22.38 m en la curva es 155.822
+2019-07-27,volumen,176.631,176.631,correccion manual,el volumen 174.361 es el de 22.89 m (29/07) repetido; 22.95 m en la curva es 176.631
+2019-07-28,volumen,176.631,176.631,correccion manual,igual que el 27/07: 22.95 m en la curva es 176.631
+2019-07-30,volumen,173.345,173.345,correccion manual,un digito: 172.345 en vez de 173.345; 22.86 m en la curva
+2019-08-18,nivel,21.61,22.61,curva nivel-volumen,un solo digito de diferencia: 22.61 en vez de 21.61
+2019-08-26,entrega,190.0,0.19,potencia de diez,244 veces la entrega habitual (p75 0.778); /1000 queda en 0.190 (entrega garantizada diaria de la ficha: 0.822)
+2019-11-18,nivel,21.1,24.1,curva nivel-volumen,un solo digito de diferencia: 24.10 en vez de 21.10
+2020-11-07,nivel,23.46,23.46,correccion manual,lectura de las 16:00
+2020-11-07,entrega,0.0,0.0,correccion manual,lectura de las 16:00
+2020-11-07,volumen,195.248,195.248,correccion manual,lectura de las 16:00
+2020-11-07,hora,16:00:00,16:00:00,correccion manual,la lectura de 00:00 repite la del 05/11 y rompe la subida; se usa la de 16:00
+2022-03-14,entrega,77.44,0.7744,potencia de diez,100 veces la entrega habitual (p75 0.778); /100 queda en 0.774 (entrega garantizada diaria de la ficha: 0.822)
+2022-03-15,nivel,23.73,22.73,curva nivel-volumen,un solo digito de diferencia: 22.73 en vez de 23.73
+2022-04-04,entrega,3.888,0.3888,potencia de diez,la quincena declara 5.3 veces lo que el embalse pierde (0.730 hm3/dia); /10 queda en 0.389 (entrega garantizada diaria de la ficha: 0.822)
+2022-04-05,entrega,3.888,0.3888,potencia de diez,la quincena declara 5.3 veces lo que el embalse pierde (0.730 hm3/dia); /10 queda en 0.389 (entrega garantizada diaria de la ficha: 0.822)
+2022-04-07,entrega,3.888,0.3888,potencia de diez,la quincena declara 7.1 veces lo que el embalse pierde (0.547 hm3/dia); /10 queda en 0.389 (entrega garantizada diaria de la ficha: 0.822)
+2022-04-08,entrega,3.888,0.0389,potencia de diez,la quincena declara 10.7 veces lo que el embalse pierde (0.365 hm3/dia); /100 queda en 0.039 (entrega garantizada diaria de la ficha: 0.822)
+2022-04-10,entrega,3.888,0.0389,potencia de diez,la quincena declara 10.7 veces lo que el embalse pierde (0.365 hm3/dia); /100 queda en 0.039 (entrega garantizada diaria de la ficha: 0.822)
+2022-04-11,entrega,3.888,0.0389,potencia de diez,la quincena declara 10.7 veces lo que el embalse pierde (0.365 hm3/dia); /100 queda en 0.039 (entrega garantizada diaria de la ficha: 0.822)
+2022-06-23,nivel,22.7,22.75,curva nivel-volumen,un solo digito de diferencia: 22.75 en vez de 22.70
+2022-08-13,volumen,176.996,176.996,correccion manual,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+2022-08-14,volumen,176.996,176.996,correccion manual,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+2022-08-15,volumen,176.996,176.996,correccion manual,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+2022-08-16,volumen,176.996,176.996,correccion manual,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+2023-06-09,volumen,232.216,232.216,correccion manual,lectura de las 10:00
+2023-06-09,nivel,24.3,24.3,correccion manual,lectura de las 10:00
+2023-06-09,hora,10:00:00,10:00:00,correccion manual,la de 08:00 (23.20) baja entre 06:00 (23.62) y 10:00 (24.30) y rompe la subida; se usa la de 10:00
+2023-06-10,hora,07:00:00,07:00:00,correccion manual,la de 08:00 (26.05) sube 0.31 m en una hora y a las 12:00 el nivel era 25.88; se usa la de 07:00
+2023-06-10,nivel,25.74,25.74,correccion manual,lectura de las 07:00
+2023-06-10,volumen,315.045,315.045,correccion manual,lectura de las 07:00
+2023-06-10,desembalse,9.072,9.072,correccion manual,lectura de las 07:00
+2023-06-12,volumen,320.797,320.797,correccion manual,un digito: 336.797 en vez de 320.797; 25.84 m en la curva (el 336.797 hacia subir el volumen mientras el nivel bajaba)
+2023-11-19,desembalse,9.331,9.331,correccion manual,"108.000 esta en m3/s sin convertir: 108 x 0.0864 = 9.331 hm3/dia, el mismo valor de los dias 20 y 21"
+2025-10-29,desembalse,6.48,6.48,correccion manual,69.768 aislado entre 6.480 a las 04:00 y 6.480 a las 10:00; el nivel subia (no hay desembalse de 70 hm3/dia con 118 hm3 en el embalse)
+2026-06-04,desembalse,3.802,3.802,correccion manual,"44.000 esta en m3/s sin convertir: 44 x 0.0864 = 3.802 hm3/dia, el valor de los dias vecinos"
+2026-06-19,nivel,19.8,19.8,correccion manual,el volumen 91.981 es 19.80 m en la curva (igual que el 18/06); 19.981 no encaja
+2026-06-20,nivel,19.7,19.5,curva nivel-volumen,un solo digito de diferencia: 19.50 en vez de 19.70
+2026-11-11,desembalse,0.95,0.95,correccion manual,950.000 es 0.950 con la coma corrida (x1000); los dias vecinos tienen 0.950

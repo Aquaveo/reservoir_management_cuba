@@ -1,0 +1,210 @@
+fecha,campo,valor,motivo
+2014-08-06,nivel,51.07,sello del dia 6: el nivel quedo fijo en 50.95 de 2014-08 a 2016-08; valor que da la curva para el volumen de ese dia
+2014-11-06,nivel,51.1,sello del dia 6: el nivel quedo fijo en 50.95 de 2014-08 a 2016-08; valor que da la curva para el volumen de ese dia
+2014-12-06,nivel,51.2,sello del dia 6: el nivel quedo fijo en 50.95 de 2014-08 a 2016-08; valor que da la curva para el volumen de ese dia
+2015-06-06,nivel,48.39,sello del dia 6: el nivel quedo fijo en 50.95 de 2014-08 a 2016-08; valor que da la curva para el volumen de ese dia
+2015-04-28,nivel,48.83,un solo digito (5->8); la curva da 48.83 para el volumen 38.826 y los vecinos bajan a -0.03 m/dia
+2021-02-06,nivel,53.39,"un solo digito (4->3); la curva da 53.39 para el volumen 160.168, igual que los vecinos"
+2019-07-25,entrega,0.242179,"m3 en columna de hm3: 242179 m3 = 0.242179 hm3, igual que los vecinos"
+2019-07-26,entrega,0.239933,"m3 en columna de hm3: 239933 m3 = 0.239933 hm3, igual que los vecinos"
+2019-07-01,nivel,52.49,se toma la lectura de las 07:55 del portal; la de las 07:19 que eligio el programa trae la entrega en m3 y un volumen 6 hm3 fuera de linea
+2019-07-01,volumen,128.532,se toma la lectura de las 07:55 del portal; la de las 07:19 que eligio el programa trae la entrega en m3 y un volumen 6 hm3 fuera de linea
+2019-07-01,entrega,0.377,se toma la lectura de las 07:55 del portal; la de las 07:19 que eligio el programa trae la entrega en m3 y un volumen 6 hm3 fuera de linea
+2019-07-01,hora,07:55:00,se toma la lectura de las 07:55 del portal; la de las 07:19 que eligio el programa trae la entrega en m3 y un volumen 6 hm3 fuera de linea
+2024-10-21,nivel,51.74,un solo digito (0->1) y el volumen lo arrastra la curva; 50.74/75.384 implicaba perder 22 hm3 y recuperarlos al dia siguiente
+2024-10-21,volumen,104.567,un solo digito (0->1) y el volumen lo arrastra la curva; 50.74/75.384 implicaba perder 22 hm3 y recuperarlos al dia siguiente
+2026-09-15,nivel,47.7,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-15,volumen,23.896,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-15,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-15,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-15,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-15,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-16,nivel,47.72,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-16,volumen,24.105,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-16,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-16,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-16,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-16,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-17,nivel,47.73,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-17,volumen,24.21,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-17,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-17,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-17,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-17,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-18,nivel,47.75,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-18,volumen,24.42,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-18,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-18,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-18,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-18,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-19,nivel,47.77,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-19,volumen,24.63,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-19,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-19,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-19,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-19,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-20,nivel,47.79,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-20,volumen,24.839,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-20,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-20,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-20,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-20,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-21,nivel,47.81,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-21,volumen,25.049,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-21,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-21,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-21,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-21,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-22,nivel,47.83,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-22,volumen,25.258,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-22,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-22,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-22,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-22,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-23,nivel,47.84,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-23,volumen,25.363,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-23,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-23,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-23,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-23,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-24,nivel,47.86,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-24,volumen,25.573,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-24,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-24,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-24,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-24,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-25,nivel,47.88,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-25,volumen,25.782,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-25,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-25,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-25,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-25,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-26,nivel,47.9,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-26,volumen,25.992,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-26,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-26,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-26,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-26,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-27,nivel,47.92,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-27,volumen,26.202,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-27,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-27,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-27,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-27,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-28,nivel,47.94,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-28,volumen,26.411,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-28,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-28,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-28,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-28,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-29,nivel,47.95,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-29,volumen,26.516,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-29,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-29,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-29,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-29,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-30,nivel,47.97,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-30,volumen,26.726,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-30,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-30,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-30,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-09-30,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-01,nivel,47.99,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-01,volumen,26.935,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-01,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-01,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-01,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-01,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-02,nivel,48.01,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-02,volumen,27.195,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-02,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-02,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-02,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-02,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-03,nivel,48.03,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-03,volumen,27.506,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-03,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-03,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-03,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-03,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-04,nivel,48.04,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-04,volumen,27.661,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-04,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-04,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-04,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-04,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-05,nivel,48.06,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-05,volumen,27.971,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-05,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-05,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-05,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-05,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-06,nivel,48.08,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-06,volumen,28.281,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-06,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-06,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-06,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-06,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-07,nivel,48.1,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-07,volumen,28.592,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-07,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-07,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-07,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-07,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-08,nivel,48.12,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-08,volumen,28.903,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-08,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-08,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-08,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-08,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-09,nivel,48.14,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-09,volumen,29.213,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-09,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-09,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-09,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-09,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-10,nivel,48.15,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-10,volumen,29.368,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-10,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-10,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-10,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-10,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-11,nivel,48.17,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-11,volumen,29.678,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-11,entrega,0.108,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-11,vertimiento,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-11,desembalse,0.0,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+2026-10-11,relleno,interpolado_largo,"relleno manual del hueco de 27 dias (2026-09-15 a 2026-10-11), por encima del tope de 15 del limpiador"
+# --- revision 2026-11-17 ---
+2020-11-09,vertimiento,77.144,el 16.465 de las 08:00 es copia del 08/11; a las 12:00 del mismo dia y con el mismo nivel (54.08) el parte da 77.144, que es el valor de la tabla para 54.08 m
+# 2023-06-10 y 11: crecida. La lectura de 08:00 del 10/06 (51.40) esta fuera de secuencia (04:00 50.90, 12:00 51.15, 16:00 51.40); el 11/06 el limpiador tomo la de 04:00
+2023-06-10,hora,12:00:00,la de 08:00 (51.40) sube y vuelve a bajar a 51.15 a las 12:00; se usa la de 12:00
+2023-06-10,nivel,51.15,lectura de las 12:00
+2023-06-10,volumen,86.430,lectura de las 12:00
+2023-06-11,hora,06:52:00,se usa la lectura de 06:52, la mas cercana a las 08:00 (el limpiador tomo la de 04:00)
+2023-06-11,nivel,52.40,lectura de las 06:52
+2023-06-11,volumen,125.218,lectura de las 06:52
+# 2024-10 y 11: entregas con la coma corrida (x10). El 17/10 el portal trae 0.910 a las 07:26 y la corrige a 0.091 a las 08:00; la entrega habitual es 0.1-0.2
+2024-10-05,entrega,0.052,coma corrida: 0.52 en vez de 0.052 (x10); entrega habitual 0.1-0.2
+2024-10-07,entrega,0.084,coma corrida: 0.84 en vez de 0.084 (x10); entrega habitual 0.1-0.2
+2024-10-08,entrega,0.084,coma corrida: 0.84 en vez de 0.084 (x10); entrega habitual 0.1-0.2
+2024-10-14,entrega,0.096,coma corrida: 0.96 en vez de 0.096 (x10); entrega habitual 0.1-0.2
+2024-10-16,entrega,0.096,coma corrida: 0.96 en vez de 0.096 (x10); entrega habitual 0.1-0.2
+2024-10-21,entrega,0.086,coma corrida: 0.86 en vez de 0.086 (x10); entrega habitual 0.1-0.2
+2024-11-03,entrega,0.075,coma corrida: 0.75 en vez de 0.075 (x10); entrega habitual 0.1-0.2
+2024-10-16,desembalse,0.1728,desembalse aislado de 2.0; como hm3/dia no cuadra con el volumen (subio 1.09 hm3 con el nivel subiendo). Se respeta como desembalse real, leido como m3/s: 2.0 x 0.0864 (mismo criterio que Hanabanilla 2019)
+# 2024-11-06: el limpiador tomo la lectura de 00:00; se usa la de 07:10
+2024-11-06,hora,07:10:00,se usa la lectura de 07:10, la mas cercana a las 08:00
+2024-11-06,nivel,51.54,lectura de las 07:10 (la elegida traia 51.56)
+2024-11-06,volumen,100.011,lectura de las 07:10 (la elegida traia 100.467)
+2024-11-06,entrega,0.069,lectura de las 07:10 (0.690 con la coma corrida, igual que los dias vecinos)
+# 2022-06-04 y 05, 2025-02-14: el limpiador tomo lecturas de 00:00-06:00; se usa el parte de la manana
+2022-06-04,hora,07:19:00,se usa la lectura de 07:19
+2022-06-04,nivel,50.27,lectura de las 07:19
+2022-06-04,volumen,65.043,lectura de las 07:19
+2022-06-05,hora,06:50:00,se usa la lectura de 06:50
+2022-06-05,entrega,0.108,lectura de las 06:50
+2025-02-14,hora,07:20:00,se usa la lectura de 07:20
+2025-02-14,nivel,50.48,lectura de las 07:20
+2025-02-14,volumen,69.752,lectura de las 07:20
+2025-02-14,entrega,0.190,lectura de las 07:20

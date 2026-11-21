@@ -1,0 +1,36 @@
+fecha,campo,valor,motivo
+2013-04-26,nivel,24.16,un solo digito (decia 21.16); el volumen 224.163 cae exacto sobre la curva en 24.16 y entre los vecinos 24.20 y 24.13
+2013-04-25,nivel,24.18,dia sin dato; el limpiador no lo relleno porque el 21.16 del dia 26 fingia un ritmo de 1.52 m/dia. Interpolado entre 24.20 y 24.16
+2013-04-25,volumen,225.314,el que da la curva para 24.18 m
+2013-04-25,entrega,1.382,persistencia del dia anterior (es lo que hace el relleno automatico); sin ella el balance da negativo y el Qin se recorta a cero
+2013-07-16,volumen,193.058,el volumen 194.518 repite el del dia anterior (23.44 m); 23.40 m en la curva es 193.058 (igual que el 17/07)
+2014-08-21,volumen,160.203,el volumen 159.473 repite el del dia siguiente (22.48 m); 22.50 m en la curva es 160.203 (igual que el 20/08)
+2018-08-22,desembalse,5.3376,61.778 hm3/dia imposible (el volumen no bajo y al dia siguiente subio). Leido como m3/s: 61.778 x 0.0864. Mismas fechas que el desembalse anomalo de Bueycito
+2018-08-23,desembalse,5.3376,igual que el 22/08: 61.778 m3/s x 0.0864
+2019-05-28,volumen,155.822,el volumen 155.092 repite el del dia siguiente (22.36 m); 22.38 m en la curva es 155.822
+2019-07-27,volumen,176.631,el volumen 174.361 es el de 22.89 m (29/07) repetido; 22.95 m en la curva es 176.631
+2019-07-28,volumen,176.631,igual que el 27/07: 22.95 m en la curva es 176.631
+2019-07-30,volumen,173.345,un digito: 172.345 en vez de 173.345; 22.86 m en la curva
+# 2020-11-07: la lectura de 00:00 (23.38 / 192.328) es copia de la del 05/11; se usa la de 16:00
+2020-11-07,hora,16:00:00,la lectura de 00:00 repite la del 05/11 y rompe la subida; se usa la de 16:00
+2020-11-07,nivel,23.46,lectura de las 16:00
+2020-11-07,volumen,195.248,lectura de las 16:00
+2020-11-07,entrega,0,lectura de las 16:00
+2022-08-13,volumen,176.996,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+2022-08-14,volumen,176.996,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+2022-08-15,volumen,176.996,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+2022-08-16,volumen,176.996,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
+# 2023-06-09 y 10: crecida con lecturas cada pocas horas; las de las 08:00 no encajan (igual que en Bueycito esos mismos dias)
+2023-06-09,hora,10:00:00,la de 08:00 (23.20) baja entre 06:00 (23.62) y 10:00 (24.30) y rompe la subida; se usa la de 10:00
+2023-06-09,nivel,24.30,lectura de las 10:00
+2023-06-09,volumen,232.216,lectura de las 10:00
+2023-06-10,hora,07:00:00,la de 08:00 (26.05) sube 0.31 m en una hora y a las 12:00 el nivel era 25.88; se usa la de 07:00
+2023-06-10,nivel,25.74,lectura de las 07:00
+2023-06-10,volumen,315.045,lectura de las 07:00
+2023-06-10,desembalse,9.072,lectura de las 07:00
+2023-06-12,volumen,320.797,un digito: 336.797 en vez de 320.797; 25.84 m en la curva (el 336.797 hacia subir el volumen mientras el nivel bajaba)
+2023-11-19,desembalse,9.331,108.000 esta en m3/s sin convertir: 108 x 0.0864 = 9.331 hm3/dia, el mismo valor de los dias 20 y 21
+2025-10-29,desembalse,6.48,69.768 aislado entre 6.480 a las 04:00 y 6.480 a las 10:00; el nivel subia (no hay desembalse de 70 hm3/dia con 118 hm3 en el embalse)
+2026-06-04,desembalse,3.802,44.000 esta en m3/s sin convertir: 44 x 0.0864 = 3.802 hm3/dia, el valor de los dias vecinos
+2026-06-19,nivel,19.80,el volumen 91.981 es 19.80 m en la curva (igual que el 18/06); 19.981 no encaja
+2026-11-11,desembalse,0.950,950.000 es 0.950 con la coma corrida (x1000); los dias vecinos tienen 0.950
