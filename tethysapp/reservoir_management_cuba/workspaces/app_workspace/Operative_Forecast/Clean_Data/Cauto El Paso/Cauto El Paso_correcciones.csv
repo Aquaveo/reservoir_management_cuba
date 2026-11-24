@@ -38,9 +38,9 @@
 2022-08-14,volumen,176.996,176.996,correccion manual,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
 2022-08-15,volumen,176.996,176.996,correccion manual,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
 2022-08-16,volumen,176.996,176.996,correccion manual,un digito: 177.996 en vez de 176.996; 22.96 m en la curva
-2023-06-09,volumen,232.216,232.216,correccion manual,lectura de las 10:00
 2023-06-09,nivel,24.3,24.3,correccion manual,lectura de las 10:00
 2023-06-09,hora,10:00:00,10:00:00,correccion manual,la de 08:00 (23.20) baja entre 06:00 (23.62) y 10:00 (24.30) y rompe la subida; se usa la de 10:00
+2023-06-09,volumen,232.216,232.216,correccion manual,lectura de las 10:00
 2023-06-10,hora,07:00:00,07:00:00,correccion manual,la de 08:00 (26.05) sube 0.31 m en una hora y a las 12:00 el nivel era 25.88; se usa la de 07:00
 2023-06-10,nivel,25.74,25.74,correccion manual,lectura de las 07:00
 2023-06-10,volumen,315.045,315.045,correccion manual,lectura de las 07:00

@@ -24,10 +24,10 @@
 2019-10-15,desembalse,0.432,0.432,correccion manual,el portal lo dio en m3/s (5) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 5 x 0.0864
 2019-10-29,nivel,357.38,359.38,curva nivel-volumen,un solo digito de diferencia: 359.38 en vez de 357.38
 2019-12-22,volumen,184.498,182.498,curva nivel-volumen,un solo digito de diferencia: 182.498 en vez de 184.498
-2020-08-23,volumen,119.24,119.24,correccion manual,lectura de las 07:15 (la elegida traia 119.11)
 2020-08-23,entrega,0.495,0.495,correccion manual,lectura de las 07:15 (la elegida traia 0)
-2020-08-23,nivel,354.68,354.68,correccion manual,lectura de las 07:15 (la elegida traia 354.67)
+2020-08-23,volumen,119.24,119.24,correccion manual,lectura de las 07:15 (la elegida traia 119.11)
 2020-08-23,hora,07:15:00,07:15:00,correccion manual,lectura de las 07:15
+2020-08-23,nivel,354.68,354.68,correccion manual,lectura de las 07:15 (la elegida traia 354.67)
 2020-11-06,volumen,156.875,156.875,correccion manual,lectura de las 07:25 (la elegida traia 157.05)
 2020-11-06,entrega,0.38,0.38,correccion manual,lectura de las 07:25 (la elegida traia 0)
 2020-11-06,nivel,357.17,357.17,correccion manual,lectura de las 07:25 (la elegida traia 357.18)

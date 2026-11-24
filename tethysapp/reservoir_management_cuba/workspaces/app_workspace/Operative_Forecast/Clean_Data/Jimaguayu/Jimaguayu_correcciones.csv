@@ -35,9 +35,9 @@
 2021-11-01,nivel,61.97,61.91,curva nivel-volumen,un solo digito de diferencia: 61.91 en vez de 61.97
 2022-05-05,nivel,58.8,58.89,curva nivel-volumen,un solo digito de diferencia: 58.89 en vez de 58.80
 2022-05-15,nivel,58.49,58.4,curva nivel-volumen,un solo digito de diferencia: 58.40 en vez de 58.49
-2022-06-05,hora,07:00:00,07:00:00,correccion manual,lectura de las 07:00
 2022-06-05,nivel,60.76,60.76,correccion manual,lectura de las 07:00 (la elegida traia 60.75)
 2022-06-05,volumen,42.784,42.784,correccion manual,lectura de las 07:00 (la elegida traia 42.675)
+2022-06-05,hora,07:00:00,07:00:00,correccion manual,lectura de las 07:00
 2023-06-10,hora,12:00:00,12:00:00,correccion manual,lectura de las 12:00
 2023-06-10,volumen,170.712,170.712,correccion manual,lectura de las 12:00 (la elegida traia 147.15)
 2023-06-10,nivel,66.72,66.72,correccion manual,lectura de las 12:00 (la elegida traia 65.95)

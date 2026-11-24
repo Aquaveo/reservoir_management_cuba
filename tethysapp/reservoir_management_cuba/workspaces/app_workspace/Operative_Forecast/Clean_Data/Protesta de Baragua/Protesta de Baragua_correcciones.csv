@@ -39,11 +39,11 @@
 2021-10-09,volumen,231.98,231.98,correccion manual,lectura de las 07:05 (la elegida traia 232.51)
 2021-10-09,hora,07:05:00,07:05:00,correccion manual,lectura de las 07:05
 2023-03-14,volumen,108.8,108.8,correccion manual,un digito: 109.800 en vez de 108.800; 91.05 m en la curva
-2023-06-09,hora,07:04:00,07:04:00,correccion manual,lectura de las 07:04
-2023-06-09,vertimiento,1.012,1.012,correccion manual,lectura de las 07:04 (la elegida traia 0)
 2023-06-09,volumen,250.34,250.34,correccion manual,lectura de las 07:04 (la elegida traia 246.025)
-2023-06-09,nivel,97.01,97.01,correccion manual,lectura de las 07:04 (la elegida traia 96.85)
+2023-06-09,vertimiento,1.012,1.012,correccion manual,lectura de las 07:04 (la elegida traia 0)
 2023-06-09,entrega,0.033,0.033,correccion manual,lectura de las 07:04 (la elegida traia 0.034)
+2023-06-09,nivel,97.01,97.01,correccion manual,lectura de las 07:04 (la elegida traia 96.85)
+2023-06-09,hora,07:04:00,07:04:00,correccion manual,lectura de las 07:04
 2023-07-05,volumen,252.72,252.72,correccion manual,un digito: 251.720 en vez de 252.720; 97.08 m en la curva (igual que el 06/07)
 2025-07-19,entrega,94.0,0.094,potencia de diez,232 veces la entrega habitual (p75 0.405); /1000 queda en 0.094 (entrega garantizada diaria de la ficha: 0.816)
 2025-08-29,entrega,94.0,0.094,potencia de diez,232 veces la entrega habitual (p75 0.405); /1000 queda en 0.094 (entrega garantizada diaria de la ficha: 0.816)
