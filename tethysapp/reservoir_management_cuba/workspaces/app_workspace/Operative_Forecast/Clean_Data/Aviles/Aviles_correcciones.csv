@@ -28,8 +28,8 @@
 2021-08-27,hora,06:49:00,06:49:00,correccion manual,lectura de las 06:49
 2021-08-27,entrega,0.0,0.0,correccion manual,lectura de las 06:49 (la elegida traia 0.056)
 2022-04-29,nivel,76.63,75.63,curva nivel-volumen,un solo digito de diferencia: 75.63 en vez de 76.63
-2022-05-14,hora,06:49:00,06:49:00,correccion manual,se usa la lectura de 06:49 (correccion) en vez de la de 06:46
 2022-05-14,nivel,75.42,75.42,correccion manual,lectura de 06:49; 75.45 de las 06:46 no cae en la curva con 165.210
+2022-05-14,hora,06:49:00,06:49:00,correccion manual,se usa la lectura de 06:49 (correccion) en vez de la de 06:46
 2022-06-03,hora,06:32:00,06:32:00,correccion manual,parte de la manana en vez de la lectura de 00:00
 2022-06-03,nivel,75.55,75.55,correccion manual,lectura de 06:32
 2022-06-03,volumen,166.754,166.754,correccion manual,lectura de 06:32
@@ -44,9 +44,9 @@
 2022-08-13,hora,06:11:00,06:11:00,correccion manual,lectura de las 06:11
 2023-06-24,vertimiento,8.0,0.0,vertimiento bajo la cresta,"vierte 8.000 m3/s con el nivel en 74.57 m, por debajo de la cresta (umbral 76.47 m)"
 2023-07-31,vertimiento,0.8,0.0,vertimiento bajo la cresta,"vierte 0.800 m3/s con el nivel en 74.36 m, por debajo de la cresta (umbral 76.47 m)"
+2023-08-29,volumen,143.913,143.913,correccion manual,lectura de las 07:11 (la elegida traia 142.658)
 2023-08-29,nivel,74.09,74.09,correccion manual,lectura de las 07:11 (la elegida traia 74.02)
 2023-08-29,hora,07:11:00,07:11:00,correccion manual,lectura de las 07:11
-2023-08-29,volumen,143.913,143.913,correccion manual,lectura de las 07:11 (la elegida traia 142.658)
 2023-10-12,vertimiento,0.8,0.0,vertimiento bajo la cresta,"vierte 0.800 m3/s con el nivel en 74.73 m, por debajo de la cresta (umbral 76.47 m)"
 2023-12-03,desembalse,0.0,0.0,correccion manual,desembalse 90 imposible: el volumen solo bajo 0.18 hm3; la lectura de 06:55 dice 0
 2023-12-03,hora,06:55:00,06:55:00,correccion manual,se usa la lectura de 06:55 (correccion) en vez de la de 06:53

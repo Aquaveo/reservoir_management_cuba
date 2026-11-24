@@ -17,10 +17,10 @@
 2019-12-12,volumen,181.157,181.157,correccion manual,el volumen 180.849 (113.33) repite el del dia siguiente; 113.35 m es 181.157
 2019-12-14,volumen,180.54,180.54,correccion manual,un digito: 180.140 en vez de 180.540; 113.31 m en la curva
 2020-04-07,nivel,112.86,112.86,correccion manual,el volumen 173.601 es 112.86 y encaja entre 112.88 y 112.83; 112.78 no
-2020-08-24,volumen,164.503,164.503,correccion manual,lectura de las 14:00
-2020-08-24,entrega,0.0,0.0,correccion manual,lectura de las 14:00
 2020-08-24,hora,14:00:00,14:00:00,correccion manual,la lectura de 00:00 (112.92) cae despues de la de 22:00 (112.86) en la secuencia; se usa la primera lectura valida del dia
 2020-08-24,nivel,112.27,112.27,correccion manual,lectura de las 14:00
+2020-08-24,volumen,164.503,164.503,correccion manual,lectura de las 14:00
+2020-08-24,entrega,0.0,0.0,correccion manual,lectura de las 14:00
 2020-09-12,nivel,113.14,113.14,correccion manual,un digito: 113.04 en vez de 113.14; el volumen 177.919 es 113.14
 2020-09-13,nivel,113.12,113.12,correccion manual,el volumen 177.610 es 113.12 y sigue la bajada (177.919 / 177.610 / 177.302); 113.14 no
 2020-10-19,nivel,112.24,112.24,correccion manual,el volumen 164.041 es 112.24 y encaja entre 112.16 y 112.28; 112.08 no

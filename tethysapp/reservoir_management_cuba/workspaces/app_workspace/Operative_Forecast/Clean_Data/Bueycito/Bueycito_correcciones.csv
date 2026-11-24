@@ -16,17 +16,17 @@
 2019-08-28,nivel,97.43,93.47,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
 2020-01-08,nivel,96.88,96.68,curva nivel-volumen,un solo digito de diferencia: 96.68 en vez de 96.88
 2020-01-09,volumen,65.6,65.6,correccion manual,el volumen 65.00 no cae en la curva; 96.70 m en la curva es 65.60
+2020-11-07,volumen,89.676,89.676,correccion manual,lectura de las 16:00
 2020-11-07,hora,16:00:00,16:00:00,correccion manual,se usa la lectura de 16:00; la de 00:00 rompe la secuencia
 2020-11-07,nivel,99.64,99.64,correccion manual,lectura de las 16:00
-2020-11-07,volumen,89.676,89.676,correccion manual,lectura de las 16:00
 2021-03-17,nivel,104.16,104.16,correccion manual,el volumen 133.12 baja parejo con los vecinos (-0.14 al dia) y en la curva es 104.16; 104.10 no
 2023-06-09,entrega,0.014,0.014,correccion manual,lectura de las 10:00
 2023-06-09,volumen,135.01,135.01,correccion manual,lectura de las 10:00
 2023-06-09,nivel,104.43,104.43,correccion manual,lectura de las 10:00
 2023-06-09,hora,10:00:00,10:00:00,correccion manual,la de 08:00 (102.11) cae entre 06:00 (104.09) y 10:00 (104.43) y rompe la subida; se usa la de 10:00
+2023-06-10,vertimiento,0.0,0.0,correccion manual,lectura de las 07:00; 105.64 m esta bajo la cresta
 2023-06-10,nivel,105.64,105.64,correccion manual,lectura de las 07:00
 2023-06-10,hora,07:00:00,07:00:00,correccion manual,la de 08:00 (106.55 / 46.195) es casi el parte del 11/06 (106.56 / 46.195) mal fechado; a las 12:00 el nivel era 106.31. Se usa la de 07:00
-2023-06-10,vertimiento,0.0,0.0,correccion manual,lectura de las 07:00; 105.64 m esta bajo la cresta
 2023-06-10,volumen,149.24,149.24,correccion manual,lectura de las 07:00
 2023-11-01,vertimiento,9.0,0.009,correccion manual,revierte la regla automatica (x1000 = 9.0): con 106.26 m la tabla de vertimiento de Bueycito da 0.009 (igual que el 29 y 31/10)
 2023-11-01,vertimiento,0.009,9.0,vertimiento coma de lugar,0.009 m3/s entre vecinos de 10.3; por mil queda 9.0

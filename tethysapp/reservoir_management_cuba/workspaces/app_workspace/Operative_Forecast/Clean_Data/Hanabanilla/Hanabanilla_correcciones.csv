@@ -10,8 +10,8 @@
 2015-07-23,nivel,351.69,351.96,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
 2015-11-09,nivel,353.4,353.84,curva nivel-volumen,el volumen sigue a los vecinos y el nivel no
 2017-09-10,nivel,355.41,353.41,curva nivel-volumen,un solo digito de diferencia: 353.41 en vez de 355.41
-2018-05-30,volumen,304.645,304.645,correccion manual,"364.90 m interpolado entre 364.60 (298.420) y 365.33 (313.564), 20.7 hm3/m"
 2018-05-30,nivel,364.9,364.9,correccion manual,364.00 / 286.000 es relleno; el vertimiento 163.918 corresponde a ~364.90 m (entre 365.33 con 283.8 y 364.60 con 88.5)
+2018-05-30,volumen,304.645,304.645,correccion manual,"364.90 m interpolado entre 364.60 (298.420) y 365.33 (313.564), 20.7 hm3/m"
 2018-06-12,nivel,362.12,364.12,curva nivel-volumen,un solo digito de diferencia: 364.12 en vez de 362.12
 2018-06-22,nivel,361.08,364.08,curva nivel-volumen,un solo digito de diferencia: 364.08 en vez de 361.08
 2018-12-24,nivel,362.06,362.06,correccion manual,digitos invertidos (decia 362.60); el volumen 247.37 cae exacto sobre la curva en 362.06 y 362.60 daria 257.90
@@ -24,10 +24,10 @@
 2019-10-15,desembalse,0.432,0.432,correccion manual,el portal lo dio en m3/s (5) como la columna vertimiento de al lado; leido como hm3 el volumen no lo respalda. Convertido: 5 x 0.0864
 2019-10-29,nivel,357.38,359.38,curva nivel-volumen,un solo digito de diferencia: 359.38 en vez de 357.38
 2019-12-22,volumen,184.498,182.498,curva nivel-volumen,un solo digito de diferencia: 182.498 en vez de 184.498
+2020-08-23,nivel,354.68,354.68,correccion manual,lectura de las 07:15 (la elegida traia 354.67)
+2020-08-23,hora,07:15:00,07:15:00,correccion manual,lectura de las 07:15
 2020-08-23,entrega,0.495,0.495,correccion manual,lectura de las 07:15 (la elegida traia 0)
 2020-08-23,volumen,119.24,119.24,correccion manual,lectura de las 07:15 (la elegida traia 119.11)
-2020-08-23,hora,07:15:00,07:15:00,correccion manual,lectura de las 07:15
-2020-08-23,nivel,354.68,354.68,correccion manual,lectura de las 07:15 (la elegida traia 354.67)
 2020-11-06,volumen,156.875,156.875,correccion manual,lectura de las 07:25 (la elegida traia 157.05)
 2020-11-06,entrega,0.38,0.38,correccion manual,lectura de las 07:25 (la elegida traia 0)
 2020-11-06,nivel,357.17,357.17,correccion manual,lectura de las 07:25 (la elegida traia 357.18)
@@ -38,20 +38,20 @@
 2022-06-03,nivel,355.36,355.36,correccion manual,lectura de las 06:47 (la elegida traia 355.28)
 2022-06-03,volumen,128.548,128.548,correccion manual,lectura de las 06:47 (la elegida traia 127.404)
 2022-06-03,entrega,0.24,0.24,correccion manual,lectura de las 06:47 (la elegida traia 0)
-2022-06-04,nivel,355.61,355.61,correccion manual,lectura de las 07:00 (la elegida traia 355.52)
-2022-06-04,entrega,0.265,0.265,correccion manual,lectura de las 07:00 (la elegida traia 0)
 2022-06-04,volumen,132.123,132.123,correccion manual,lectura de las 07:00 (la elegida traia 130.836)
 2022-06-04,hora,07:00:00,07:00:00,correccion manual,lectura de las 07:00
+2022-06-04,nivel,355.61,355.61,correccion manual,lectura de las 07:00 (la elegida traia 355.52)
+2022-06-04,entrega,0.265,0.265,correccion manual,lectura de las 07:00 (la elegida traia 0)
 2022-06-05,hora,06:53:00,06:53:00,correccion manual,lectura de las 06:53
 2022-06-05,nivel,356.1,356.1,correccion manual,lectura de las 06:53 (la elegida traia 355.96)
 2022-06-05,volumen,139.32,139.32,correccion manual,lectura de las 06:53 (la elegida traia 137.128)
 2022-06-05,entrega,0.269,0.269,correccion manual,lectura de las 06:53 (la elegida traia 0)
 2022-09-25,entrega,0.673,0.673,correccion manual,lectura de las 07:02 (la elegida traia 0)
 2022-09-25,hora,07:02:00,07:02:00,correccion manual,lectura de las 07:02
-2022-09-26,entrega,0.17,0.17,correccion manual,lectura de las 06:57 (la elegida traia 0)
 2022-09-26,hora,06:57:00,06:57:00,correccion manual,lectura de las 06:57
-2024-11-05,volumen,186.615,186.615,correccion manual,lectura de las 06:48 (la elegida traia 186.257)
-2024-11-05,hora,06:48:00,06:48:00,correccion manual,lectura de las 06:48
+2022-09-26,entrega,0.17,0.17,correccion manual,lectura de las 06:57 (la elegida traia 0)
 2024-11-05,nivel,358.85,358.85,correccion manual,lectura de las 06:48 (la elegida traia 358.83)
 2024-11-05,entrega,0.403,0.403,correccion manual,lectura de las 06:48 (la elegida traia 0)
+2024-11-05,volumen,186.615,186.615,correccion manual,lectura de las 06:48 (la elegida traia 186.257)
+2024-11-05,hora,06:48:00,06:48:00,correccion manual,lectura de las 06:48
 2026-04-02,nivel,356.26,356.26,correccion manual,el volumen 141.912 es 356.26 en la curva y encaja entre 356.28 y 356.27; 356.21 no
